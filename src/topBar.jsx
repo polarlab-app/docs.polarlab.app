@@ -5,7 +5,7 @@ export function TopBar() {
         <nav>
             <div className='logocontainer'>
                 <img className='polarlogo' src='https://cdn.polarlab.app/src/img/polarlogo.png' />
-                <h1 className='polarlabh1 font-bold'>Polar Lab</h1>
+                <h1 className='polarlabh1'>Polar Lab</h1>
             </div>
             <div className='navcontainer'>
                 <Link className='navlink' href='/'>
