@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export function TopBar() {
     return (
         <nav>
@@ -6,9 +8,9 @@ export function TopBar() {
                 <h1 className='polarlabh1 font-bold'>Polar Lab</h1>
             </div>
             <div className='navcontainer'>
-                <a className='navlink' href='https://docs.polarlab.app'>
+                <Link className='navlink' href='/'>
                     Home
-                </a>
+                </Link>
                 <a className='navlink2' href='https://polarlab.app/discord'>
                     Join our Discord!
                 </a>

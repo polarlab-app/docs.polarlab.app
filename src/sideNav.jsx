@@ -20,7 +20,7 @@ export function SideNav() {
                     {header} <img src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' className='rightarrow' />
                     <div className='subtexts'>
                         {Object.entries(links).map(([linkName, linkUrl]) => (
-                            <Link key={linkName} className={`subtext ${pathname === `/polaris/${header.toLowerCase()}/${linkName.toLowerCase().replace(/ /g, '-')}` ? 'subtextactive' : ''}`} href={`/polaris/${header.toLowerCase()}/${linkName.toLowerCase().replace(/ /g, '-')}`}>
+                            <Link key={linkName} className={`subtext ${pathname === `/polaris/${header.toLowerCase()}/${linkName.toLowerCase().replace(/ /g, '-')}` ? 'subtextactive' : ''}`} href={`/polaris/${header.toLowerCase()}/${linkName.toLowerCase().replace(/ /g, '-').replace(/&/g, 'and')}`}>
                                 <img src={linkUrl} className='imgsubtext' />
                                 {linkName}
                             </Link>
