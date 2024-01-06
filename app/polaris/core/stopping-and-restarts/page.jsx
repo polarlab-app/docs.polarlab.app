@@ -10,7 +10,7 @@ export default function Page() {
                 </a>
             </div>
             <div className='mainsection'>
-                <h6 className='directory'>Polaris Docs / Stopping & Restarts</h6>
+                <h6 className='directory'>Polaris Docs / Core / Stopping & Restarts</h6>
                 <h1 className='title'>Stopping & Restarts</h1>
                 <hr className='divider'></hr>
                 <div className='chaptercontainer' id='stopping-restarts'>
