@@ -14,7 +14,7 @@ export default function Page() {
                 </a>
             </div>
             <div className='mainsection'>
-                <h6 className='directory'>Polaris Docs / Ping</h6>
+                <h6 className='directory'>Polaris Docs / Core / Ping</h6>
                 <h1 className='title'>Ping</h1>
                 <hr className='divider'></hr>
                 <div className='chaptercontainer' id='ping'>
