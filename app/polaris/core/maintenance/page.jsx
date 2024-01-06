@@ -12,7 +12,7 @@ export default function Page() {
                 </a>
             </div>
             <div className='mainsection'>
-                <h6 className='directory'>Polaris Docs / Maintenance</h6>
+                <h6 className='directory'>Polaris Docs / Core / Maintenance</h6>
                 <h1 className='title'>Maintenance</h1>
                 <hr className='divider'></hr>
                 <div

@@ -10,7 +10,7 @@ export default function Page() {
                 </a>
             </div>
             <div className='mainsection'>
-                <h6 className='directory'>Polaris Docs / Uptime</h6>
+                <h6 className='directory'>Polaris Docs / Core / Uptime</h6>
                 <h1 className='title'>Uptime</h1>
                 <hr className='divider'></hr>
                 <div className='chaptercontainer' id='uptime'>
