@@ -130,7 +130,7 @@ export default function Page() {
                         </Link>
                     </div>
                     <div className='nextbutton'>
-                        <Link className='nextbtn' href='/polaris/core/stopping-&-restarts'>
+                        <Link className='nextbtn' href='/polaris/core/stopping-and-restarts'>
                             Next Page
                         </Link>
                         <img className='nextarrow' src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' />
