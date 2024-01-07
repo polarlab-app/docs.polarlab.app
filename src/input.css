@@ -5,10 +5,15 @@ body {
     background: #171717;
     text-align: center;
     font-family: 'Work Sans';
-    overflow: hidden;
+    overflow: scroll;
     transition: all 600ms ease;
     -webkit-transition: all 600ms ease;
     font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e5e5;
 }
 
 nav {
@@ -47,14 +52,14 @@ nav {
     justify-content: center;
 }
 
-.navlink {
+.toplink {
     text-decoration: none;
     color: #e5e5e5;
     font-weight: 700;
     font-size: 1rem;
 }
 
-.navlink2 {
+.toplink2 {
     text-decoration: none;
     color: #e5e5e5;
     font-weight: 700;
@@ -197,6 +202,14 @@ nav {
 }
 
 .subtext:hover {
+    background-color: #2f3136;
+    border-radius: 5px;
+    transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    cursor: pointer;
+}
+
+.subtextactive {
     background-color: #2f3136;
     border-radius: 5px;
     transition: all 600ms ease;

@@ -1,27 +1,40 @@
-'use client'
- 
-import { usePathname } from 'next/navigation'
+'use client';
+import { usePathname } from 'next/navigation';
 
-import Link from 'next/link'
+import Link from 'next/link';
 import pleaseworkffs from './sidenav.json';
-
+import Image from 'next/image'
 
 export function SideNav() {
-    const pathname = usePathname()
+    const pathname = usePathname();
 
     return (
         <div className='sidenav' id='nav'>
             <div className='menuheader'>
-                <img className='img' src='https://cdn.polarlab.app/src/docs/img/docs-default.png' align='left' />
-                Polaris Docs
+                <Link href='/polaris'>
+                    <Image className='img' src='https://cdn.polarlab.app/src/docs/img/docs-default.png' alt='alt' align='left' />
+                    Polaris Docs
+                </Link>
             </div>
+
             {Object.entries(pleaseworkffs).map(([header, links]) => (
                 <div key={header} className='menuheader'>
-                    {header} <img src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' className='rightarrow' />
+                    {header} <Image src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' alt='alt' className='rightarrow' />
                     <div className='subtexts'>
                         {Object.entries(links).map(([linkName, linkUrl]) => (
-                            <Link key={linkName} className={`subtext ${pathname === `/polaris/${header.toLowerCase()}/${linkName.toLowerCase().replace(/ /g, '-')}` ? 'subtextactive' : ''}`} href={`/polaris/${header.toLowerCase()}/${linkName.toLowerCase().replace(/ /g, '-').replace(/&/g, 'and')}`}>
-                                <img src={linkUrl} className='imgsubtext' />
+                            <Link
+                                key={linkName}
+                                className={`subtext ${
+                                    pathname ===
+                                    `/polaris/${header.toLowerCase()}/${linkName.toLowerCase().replace(/ /g, '-')}`
+                                        ? 'subtextactive'
+                                        : ''
+                                }`}
+                                href={`/polaris/${header.toLowerCase()}/${linkName
+                                    .toLowerCase()
+                                    .replace(/ /g, '-')
+                                    .replace(/&/g, 'and')}`}>
+                                <Image src={linkUrl} className='imgsubtext' alt='alt'/>
                                 {linkName}
                             </Link>
                         ))}

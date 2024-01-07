@@ -1,5 +1,5 @@
 import Link from "next/link"
-
+import Image from 'next/image'
 export default function Page() {
     return (
         <>
@@ -95,7 +95,7 @@ export default function Page() {
                 </div>
                 <div className='buttoncontainer'>
                     <div className='lastbutton'>
-                        <img className='lastarrow' src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' />
+                        <Image className='lastarrow' src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' alt='alt' />
                         <Link className='lastbtn' href='/polaris/utilities/reports'>
                             Last Page
                         </Link>
@@ -104,7 +104,7 @@ export default function Page() {
                         <Link className='nextbtn' href='/polaris/utilities/'>
                             Next Page
                         </Link>
-                        <img className='nextarrow' src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' />
+                        <Image className='nextarrow' src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' alt='alt' />
                     </div>
                 </div>
                 <div className='spacebox'></div>
