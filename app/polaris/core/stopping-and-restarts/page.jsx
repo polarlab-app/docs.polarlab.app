@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+import Image from 'next/image'
 export default function Page() {
     return (
         <>
@@ -24,9 +24,9 @@ export default function Page() {
                     <table>
                         <thead>
                             <tr>
-                                <th class='thead'>Command</th>
-                                <th class='thead'>Description</th>
-                                <th class='thead'>Special Permissions</th>
+                                <th className='thead'>Command</th>
+                                <th className='thead'>Description</th>
+                                <th className='thead'>Special Permissions</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -69,7 +69,7 @@ export default function Page() {
                 </div>
                 <div className='buttoncontainer'>
                     <div className='lastbutton'>
-                        <img className='lastarrow' src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' />
+                        <Image className='lastarrow' src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' alt='alt' />
                         <Link className='lastbtn' href='/polaris/core/maintenance'>
                             Last Page
                         </Link>
@@ -78,7 +78,7 @@ export default function Page() {
                         <Link className='nextbtn' href='/polaris/moderation/banning'>
                             Next Page
                         </Link>
-                        <img className='nextarrow' src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' />
+                        <Image className='nextarrow' src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' alt='alt' />
                     </div>
                 </div>
                 <div className='spacebox'></div>

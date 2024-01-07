@@ -1,0 +1,189 @@
+
+a {
+    text-decoration: none;
+    color: white;
+  }
+.main {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.topsection {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.websiteheader {
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+.subheader {
+    font-size: 1.4rem;
+    color: #727272;
+    margin-bottom: 7%;
+}
+
+.gdkredirect {
+    padding: 10px 30px;
+    background-color: #2a2933;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    line-height: 1.1;
+    font-weight: 500;
+    transition: all 600ms ease;
+    cursor: pointer;
+}
+
+.gdkredirect:hover {
+    background-color: #1b1b1d;
+    transition: all 600ms ease;
+}
+
+.scroll {
+    text-align: center;
+    color: #424242;
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: 10%;
+}
+
+.scroll.hidden {
+    transform: translateY(50%);
+    opacity: 0;
+}
+
+.sitesection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.sectionheader {
+    font-size: 2rem;
+}
+
+.sectionsubheader {
+    font-size: 1rem;
+    color: #727272;
+    font-weight: 500;
+}
+
+.featuregrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50% 50%;
+    gap: 1rem;
+    margin-top: 10vh;
+}
+
+.griditem {
+    border: 1px solid #505050;
+    height: 35vh;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.022), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.gridtextcontainer {
+    float: left;
+    margin-left: 5%;
+    width: 40%;
+    text-align: left;
+}
+
+.gridheader {
+    font-size: 1.4rem;
+    color: #e2e2e2;
+    margin-bottom: 2px;
+}
+
+.gridcontent {
+    color: #91909c;
+}
+.gridimg {
+    height: 100%;
+    float: right;
+    border-radius: 4px 10px 10px 4px;
+}
+
+.gridbutton {
+    padding: 5px 20px;
+    background-color: #2a2933;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    line-height: 1.1;
+    font-weight: 500;
+    transition: all 600ms ease;
+    cursor: pointer;
+}
+.gridbutton:hover {
+    background-color: #1b1b1d;
+    transition: all 600ms ease;
+}
+
+.gridrowthird {
+    grid-column: span 1;
+    height: 45vh;
+    .gridheader {
+        width: 220%;
+        text-align: center;
+    }
+    .gridcontent {
+        float: none;
+        width: 230%;
+    }
+    .gridimg {
+        height: 40%;
+        position: absolute;
+        bottom: 3%;
+        right: 10%;
+    }
+}
+.gridrowhalf {
+    grid-row: span 2;
+    grid-column: span 3;
+}
+.gridrowtwothirds {
+    grid-column: span 2;
+    overflow: hidden;
+    height: 45vh;
+    .gridcontent {
+        width: 110%;
+    }
+    .gridimg {
+        width: 45%;
+        height: auto;
+        justify-content: center;
+    }
+}
+.gridrowfull {
+    grid-column: span 3;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(30%);
+    filter: blur(10px);
+    transition: all 1.5s;
+}
+
+.hidden:nth-child(3n + 1) {
+    transition-delay: 200ms;
+}
+.hidden:nth-child(3n + 2) {
+    transition-delay: 400ms;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
