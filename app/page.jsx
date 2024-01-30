@@ -1,5 +1,5 @@
-import Footer from './footer.jsx';
-import Nav from './nav.jsx';
+//import Footer from './footer.jsx';
+//import Nav from './nav.jsx';
 import '../src/global.css';
 import Link from 'next/link'
 import Image from 'next/image'

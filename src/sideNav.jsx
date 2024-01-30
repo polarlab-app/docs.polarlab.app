@@ -6,8 +6,6 @@ import pleaseworkffs from './sidenav.json';
 import Image from 'next/image'
 
 export function SideNav() {
-    const pathname = usePathname();
-
     return (
         <div className='sidenav' id='nav'>
             <div className='menuheader'>
