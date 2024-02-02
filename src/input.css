@@ -11,7 +11,7 @@ body {
     font-size: 16px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #e5e5e5;
 }
@@ -452,7 +452,7 @@ nav {
 }
 
 .spacebox {
-  height: 6vh;
+    height: 6vh;
 }
 
 .lastbtn {
@@ -502,8 +502,18 @@ table {
 }
 
 .activeqn {
-  color: #e5e5e5;
-  text-decoration: underline;
-  -webkit-transition: all 600ms ease;
-  transition: all 600ms ease;
+    color: #e5e5e5;
+    text-decoration: underline;
+    -webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+
+.codeblock {
+    color: #f39f9f;
+    background-color: #272625;
+    border-radius: 5px;
+    text-align: left;
+    padding: 0.5vh 0.5vw;
+    font-size: 12px;
+    margin: 0;
 }

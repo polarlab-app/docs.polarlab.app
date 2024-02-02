@@ -9,6 +9,15 @@ export default function Page() {
                 <a className='qnsub' href='#command-list'>
                     The list of commands
                 </a>
+                <a className='qnsub' href='#core'>
+                    Core Module
+                </a>
+                <a className='qnsub' href='#economy'>
+                    Economy Module
+                </a>
+                <a className='qnsub' href='#fun'>
+                    Fun Module
+                </a>
             </div>
             <h6 className='directory'>Polaris Docs / Information / Commands</h6>
             <h1 className='title'>Commands</h1>
@@ -110,7 +119,10 @@ export default function Page() {
             <div className='chaptercontainer' id='economy'>
                 <h2 className='chapter'>Economy Module</h2>
                 <hr className='chapterdivider'></hr>
-                <p className='maintext'>The economy module</p>
+                <p className='maintext'>
+                    The economy module is vast landscape full of fun commands for you and your server to make use of,
+                    trade items, build up your business, take care of your pets & much more!
+                </p>
                 <table>
                     <thead>
                         <tr>
@@ -120,6 +132,23 @@ export default function Page() {
                         </tr>
                     </thead>
                     <tbody>
+                        <tr>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>/balance {'[user]'}</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>Shows yours or another users balance</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>None</p>
+                                </div>
+                            </td>
+                        </tr>
                         <tr>
                             <td className='tcell'>
                                 <div className='tddiv'>
@@ -157,34 +186,273 @@ export default function Page() {
                         <tr>
                             <td className='tcell'>
                                 <div className='tddiv'>
-                                    <p>/restart</p>
+                                    <p>/deposit {`{amount}`}</p>
                                 </div>
                             </td>
                             <td className='tcell'>
                                 <div className='tddiv'>
-                                    <p>Restarts Polaris</p>
+                                    <p>Deposits coins into your bank account</p>
                                 </div>
                             </td>
                             <td className='tcell'>
                                 <div className='tddiv'>
-                                    <p>Developer ONLY</p>
+                                    <p>none</p>
                                 </div>
                             </td>
                         </tr>
                         <tr>
                             <td className='tcell'>
                                 <div className='tddiv'>
-                                    <p>/shutdown</p>
+                                    <p>/dig</p>
                                 </div>
                             </td>
                             <td className='tcell'>
                                 <div className='tddiv'>
-                                    <p>Shuts Polaris down</p>
+                                    <p>Digs into the ground for loot or coins</p>
                                 </div>
                             </td>
                             <td className='tcell'>
                                 <div className='tddiv'>
-                                    <p>Developer ONLY</p>
+                                    <p>none</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>/fish</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>Fishes for fishing in a pond for loot</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>none</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>/hunt</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>Hunts for animals for loot or coins</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>none</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>/inventory</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>Displays your inventory</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>none</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>/sell {`{item}`}</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>Sells an item from your inventory</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>none</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>/shop</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>Displays the server shop</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>none</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>/slots {'{amount}'}</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>Bets some money on a slot machine</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>none</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>/withdraw {`{amount}`}</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>Withdraws coins into your purse</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>none</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>/work {'[job]'}</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>Works at a job for coins</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>none</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div className='chaptercontainer' id='fun'>
+                <h2 className='chapter'>Fun Module</h2>
+                <hr className='chapterdivider'></hr>
+                <p className='maintext'>
+                    The fun module contains commands that allow your members to have with their friends.
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th className='thead'>Command</th>
+                            <th className='thead'>Description</th>
+                            <th className='thead'>Special Permissions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>/aghpb</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>Returns a picture from the AGHPB API (devgoldy.xyz)</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>none</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>/cat</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>Returns a cat picture</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>none</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>/dice</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>Rolls a dice (1-6)</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>none</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>/fact</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>Returns a fact from Polar API</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>None</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>/joke {`{type}`}</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>Returns a joke from Polar API</p>
+                                </div>
+                            </td>
+                            <td className='tcell'>
+                                <div className='tddiv'>
+                                    <p>none</p>
                                 </div>
                             </td>
                         </tr>
