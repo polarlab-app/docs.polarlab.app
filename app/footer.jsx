@@ -1,13 +1,13 @@
 import '../src/footer.css';
 import Link from 'next/link';
-import Image from 'next/image'
+import Image from 'next/image';
 
 export default function Footer() {
     return (
         <footer className='footercontainer'>
             <div className='footer'>
                 <div className='footertop'>
-                    <Image 
+                    <img
                         src='https://cdn.discordapp.com/attachments/1018171583111647313/1162688848522903632/twothirdsactual.png?ex=6561c35f&is=654f4e5f&hm=b3f64b1e065f460f6ffb8696e09c25b9403445838843380ccba334dbde47fc5e&'
                         className='footerlogo'
                         alt='alt'
@@ -86,21 +86,25 @@ export default function Footer() {
                     ©️ 2023 Polar Lab
                 </a>
                 <div className='status'>
-                    <Link className='product' href="https://polarlab.app/status">Polaris Status:</Link>
-                    <Image 
+                    <Link className='product' href='https://polarlab.app/status'>
+                        Polaris Status:
+                    </Link>
+                    <img
                         src='https://cdn.discordapp.com/attachments/1018171583111647313/1162688848522903632/twothirdsactual.png?ex=6561c35f&is=654f4e5f&hm=b3f64b1e065f460f6ffb8696e09c25b9403445838843380ccba334dbde47fc5e&'
                         className='statusicon'
                         alt='alt'
                     />
-                    <Link className='statustext' href="https://polarlab.app/status">Online</Link>
+                    <Link className='statustext' href='https://polarlab.app/status'>
+                        Online
+                    </Link>
                 </div>
                 <div className='socials'>
-                    <Image 
+                    <img
                         src='https://cdn.discordapp.com/attachments/1018171583111647313/1162688848522903632/twothirdsactual.png?ex=6561c35f&is=654f4e5f&hm=b3f64b1e065f460f6ffb8696e09c25b9403445838843380ccba334dbde47fc5e&'
                         className='discordlogo'
                         alt='alt'
                     />
-                    <Image 
+                    <img
                         src='https://cdn.discordapp.com/attachments/1018171583111647313/1162688848522903632/twothirdsactual.png?ex=6561c35f&is=654f4e5f&hm=b3f64b1e065f460f6ffb8696e09c25b9403445838843380ccba334dbde47fc5e&'
                         className='discordlogo'
                         alt='alt'

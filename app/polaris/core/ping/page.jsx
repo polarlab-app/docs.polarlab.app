@@ -1,9 +1,8 @@
-'use client'
-import Link from "next/link"
-import Image from 'next/image'
+'use client';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Page() {
-
     return (
         <>
             <div className='quicknav'>
@@ -160,7 +159,11 @@ export default function Page() {
                 </div>
                 <div className='buttoncontainer'>
                     <div className='lastbutton'>
-                        <Image className='lastarrow' src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' alt='alt' />
+                        <img
+                            className='lastarrow'
+                            src='https://cdn.polarlab.app/src/docs/img/rightarrow.png'
+                            alt='alt'
+                        />
                         <Link className='lastbtn' href='/polaris/general/account'>
                             Last Page
                         </Link>
@@ -169,7 +172,11 @@ export default function Page() {
                         <Link className='nextbtn' href='/polaris/core/uptime'>
                             Next Page
                         </Link>
-                        <Image className='nextarrow' src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' alt='alt' />
+                        <img
+                            className='nextarrow'
+                            src='https://cdn.polarlab.app/src/docs/img/rightarrow.png'
+                            alt='alt'
+                        />
                     </div>
                 </div>
                 <div className='spacebox'></div>

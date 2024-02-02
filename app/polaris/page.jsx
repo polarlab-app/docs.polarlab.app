@@ -17,7 +17,7 @@ export default function Page() {
                 <h1 className='title'>Polaris Documentation</h1>
                 <hr className='divider' />
                 <div className='warningnote note'>
-                    <Image src='https://cdn.polarlab.app/src/docs/img/warning.png' alt='alt' className='noteicon' />
+                    <img src='https://cdn.polarlab.app/src/docs/img/warning.png' alt='alt' className='noteicon' />
                     <p className='notetext'>
                         Please note that this documentation is a work in progress (WIP). Certain sections may contain
                         placeholders or incomplete information. We apologize for any inconvenience caused. Our team is
@@ -63,7 +63,7 @@ export default function Page() {
                         <Link className='nextbtn' href='/polaris/information/commands'>
                             Next Page
                         </Link>
-                        <Image
+                        <img
                             className='nextarrow'
                             src='https://cdn.polarlab.app/src/docs/img/rightarrow.png'
                             alt='alt'

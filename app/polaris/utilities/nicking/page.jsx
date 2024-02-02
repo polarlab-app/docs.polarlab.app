@@ -1,5 +1,5 @@
-import Link from "next/link"
-import Image from 'next/image'
+import Link from 'next/link';
+import Image from 'next/image';
 export default function Page() {
     return (
         <>
@@ -16,9 +16,7 @@ export default function Page() {
                 <h6 className='directory'>Polaris Docs / Utilities / Nicking</h6>
                 <h1 className='title'>Nicking</h1>
                 <hr className='divider'></hr>
-                <div
-                    className='chaptercontainer'
-                    id='nicking-reason'>
+                <div className='chaptercontainer' id='nicking-reason'>
                     <h2 className='chapter'>Why Nicking?</h2>
                     <hr className='chapterdivider'></hr>
                     <p className='maintext'>
@@ -32,9 +30,7 @@ export default function Page() {
                         module, hence this command!
                     </p>
                 </div>
-                <div
-                    className='chaptercontainer'
-                    id='nicking'>
+                <div className='chaptercontainer' id='nicking'>
                     <h2 className='chapter'>Nicking</h2>
                     <hr className='chapterdivider'></hr>
                     <p className='maintext'>
@@ -72,7 +68,11 @@ export default function Page() {
                 </div>
                 <div className='buttoncontainer'>
                     <div className='lastbutton'>
-                        <Image className='lastarrow' src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' alt='alt' />
+                        <img
+                            className='lastarrow'
+                            src='https://cdn.polarlab.app/src/docs/img/rightarrow.png'
+                            alt='alt'
+                        />
                         <Link className='lastbtn' href='/polaris/utilities/polls'>
                             Last Page
                         </Link>
@@ -81,7 +81,11 @@ export default function Page() {
                         <Link className='nextbtn' href='/polaris/utilities/reports'>
                             Next Page
                         </Link>
-                        <Image className='nextarrow' src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' alt='alt' />
+                        <img
+                            className='nextarrow'
+                            src='https://cdn.polarlab.app/src/docs/img/rightarrow.png'
+                            alt='alt'
+                        />
                     </div>
                 </div>
                 <div className='spacebox'></div>

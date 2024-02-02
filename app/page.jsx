@@ -1,8 +1,8 @@
-//import Footer from './footer.jsx';
-//import Nav from './nav.jsx';
+import Footer from './footer.jsx';
+import Nav from './nav.jsx';
 import '../src/global.css';
-import Link from 'next/link'
-import Image from 'next/image'
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
     return (
@@ -33,7 +33,7 @@ export default function Home() {
                                     Check It Out
                                 </Link>
                             </div>
-                            <Image 
+                            <img
                                 className='gridimg'
                                 src='https://cdn.discordapp.com/attachments/1018171583111647313/1162688572718055464/thirdtestactual.png?ex=653cd91d&is=652a641d&hm=bdd165761beb9cacddaac15d20ab3f9af3a58c92fd2681e963b219845c36d3e1&'
                                 alt='alt'
@@ -47,9 +47,11 @@ export default function Home() {
                                     Join to experience a breathtaking experience with all of our custom datapacks and a
                                     100 Milion chunk world.
                                 </p>
-                                <Link className='gridbutton' href='/polarmc'>Check It Out</Link>
+                                <Link className='gridbutton' href='/polarmc'>
+                                    Check It Out
+                                </Link>
                             </div>
-                            <Image 
+                            <img
                                 className='gridimg'
                                 src='https://cdn.discordapp.com/attachments/1018171583111647313/1162688572718055464/thirdtestactual.png?ex=653cd91d&is=652a641d&hm=bdd165761beb9cacddaac15d20ab3f9af3a58c92fd2681e963b219845c36d3e1&'
                                 alt='alt'
@@ -63,9 +65,11 @@ export default function Home() {
                                     Testing the description of the grid to see if it fits and how well it does, if so
                                     Testing the description of the grid to see if it fits and how well it does, if so
                                 </p>
-                                <Link className='gridbutton' href="/">Check It Out</Link>
+                                <Link className='gridbutton' href='/'>
+                                    Check It Out
+                                </Link>
                             </div>
-                            <Image 
+                            <img
                                 className='gridimg'
                                 src='https://cdn.discordapp.com/attachments/1018171583111647313/1162688572718055464/thirdtestactual.png?ex=653cd91d&is=652a641d&hm=bdd165761beb9cacddaac15d20ab3f9af3a58c92fd2681e963b219845c36d3e1&'
                                 alt='alt'
@@ -83,7 +87,7 @@ export default function Home() {
                                     Check It Out
                                 </Link>
                             </div>
-                            <Image 
+                            <img
                                 className='gridimg'
                                 src='https://cdn.discordapp.com/attachments/1018171583111647313/1162688572718055464/thirdtestactual.png?ex=653cd91d&is=652a641d&hm=bdd165761beb9cacddaac15d20ab3f9af3a58c92fd2681e963b219845c36d3e1&'
                                 alt='alt'
