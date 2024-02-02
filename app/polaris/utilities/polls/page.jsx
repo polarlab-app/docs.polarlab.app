@@ -62,7 +62,7 @@ export default function Page() {
                 </div>
                 <div className='buttoncontainer'>
                     <div className='lastbutton'>
-                        <Image
+                        <img
                             className='lastarrow'
                             src='https://cdn.polarlab.app/src/docs/img/rightarrow.png'
                             alt='alt'
@@ -75,7 +75,7 @@ export default function Page() {
                         <Link className='nextbtn' href='/polaris/utilities/nicking'>
                             Next Page
                         </Link>
-                        <Image
+                        <img
                             className='nextarrow'
                             src='https://cdn.polarlab.app/src/docs/img/rightarrow.png'
                             alt='alt'

@@ -1,16 +1,11 @@
 import '../src/navbar.css';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function NavBar() {
     return (
         <nav>
             <div className='navlinkcontainer'>
-                <Image
-                    className='logo'
-                    src='https://cdn.polarlab.app/src/img/polarlogo.png'
-                    alt='alt'
-                />
+                <img className='logo' src='https://cdn.polarlab.app/src/img/polarlogo.png' alt='alt' />
                 <Link className='logolink' href='https://polarlab.app/'>
                     Polar Lab
                 </Link>

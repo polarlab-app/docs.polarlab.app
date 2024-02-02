@@ -1,5 +1,5 @@
-import Link from "next/link"
-import Image from 'next/image'
+import Link from 'next/link';
+import Image from 'next/image';
 export default function Page() {
     return (
         <>
@@ -16,9 +16,7 @@ export default function Page() {
                 <h6 className='directory'>Polaris Docs / Core / Maintenance</h6>
                 <h1 className='title'>Maintenance</h1>
                 <hr className='divider'></hr>
-                <div
-                    className='chaptercontainer'
-                    id='maintenance-impact'>
+                <div className='chaptercontainer' id='maintenance-impact'>
                     <h2 className='chapter'>Maintenance Impact</h2>
                     <hr className='chapterdivider'></hr>
                     <p className='maintext'>
@@ -34,10 +32,7 @@ export default function Page() {
                         unexpectedly
                     </p>
                 </div>
-                <div
-                    className='chaptercontainer'
-                    id='maintenance-times'
-                    >
+                <div className='chaptercontainer' id='maintenance-times'>
                     <h2 className='chapter'>Maintenance Times & Types</h2>
                     <hr className='chapterdivider'></hr>
                     <p className='maintext'>
@@ -125,7 +120,11 @@ export default function Page() {
                 </div>
                 <div className='buttoncontainer'>
                     <div className='lastbutton'>
-                        <Image className='lastarrow' src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' alt='alt' />
+                        <img
+                            className='lastarrow'
+                            src='https://cdn.polarlab.app/src/docs/img/rightarrow.png'
+                            alt='alt'
+                        />
                         <Link className='lastbtn' href='/polaris/core/uptime'>
                             Last Page
                         </Link>
@@ -134,7 +133,11 @@ export default function Page() {
                         <Link className='nextbtn' href='/polaris/core/stopping-and-restarts'>
                             Next Page
                         </Link>
-                        <Image className='nextarrow' src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' alt='alt' />
+                        <img
+                            className='nextarrow'
+                            src='https://cdn.polarlab.app/src/docs/img/rightarrow.png'
+                            alt='alt'
+                        />
                     </div>
                 </div>
                 <div className='spacebox'></div>
