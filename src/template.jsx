@@ -5,18 +5,19 @@ export default function Page() {
         <>
             <div className='quicknav'>
                 <a className='qntitle'>CONTENT</a>
-                <a className='qnsub' href='#'>
-                    Maintenance Impact
+                <a className='qnsub' href='#summary'>
+                    Privacy Policy Summary
                 </a>
             </div>
             <div className='mainsection'>
-                <h6 className='directory'>Polaris Docs / Legal / Terms of Service</h6>
-                <h1 className='title'>ToS</h1>
+                <h6 className='directory'>Polaris Docs / Legal / Privacy Policy</h6>
+                <h1 className='title'>Privacy Policy</h1>
                 <hr className='divider'></hr>
-                <div className='chaptercontainer' id=''>
-                    <h2 className='chapter'>Maintenance Impact</h2>
+                <div className='chaptercontainer' id='summary'>
+                    <h2 className='chapter'>Summary of our Policy</h2>
                     <hr className='chapterdivider'></hr>
                 </div>
+
                 <div className='buttoncontainer'>
                     <div className='lastbutton'>
                         <img

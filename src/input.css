@@ -517,3 +517,23 @@ table {
     font-size: 12px;
     margin: 0;
 }
+
+.strong {
+    font-weight: 700;
+}
+
+.embeddedhyperlink {
+    font-weight: 700;
+    color: #c69ff3bd;
+    transition: all 600ms ease;
+}
+
+.embeddedhyperlink:hover {
+    color: #f39f9f;
+    transition: all 600ms ease;
+    border-bottom: 1px solid #f39f9f;
+}
+
+.subchapter {
+    font-size: 1.125rem;
+}
