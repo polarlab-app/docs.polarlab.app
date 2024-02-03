@@ -37,21 +37,13 @@
         "Reports": "https://cdn.polarlab.app/src/docs/img/reports.png",
         "Suggestions & Reviews": "https://cdn.polarlab.app/src/docs/img/suggestions.png"
     },
-    "Economy": {
-        "Economy Basics": "https://cdn.polarlab.app/src/docs/img/notes.png",
-        "Currency": "https://cdn.polarlab.app/src/docs/img/currency.png",
-        "Begging": "https://cdn.polarlab.app/src/docs/img/begging.png",
-        "Hunting, Fishing & Digging": "https://cdn.polarlab.app/src/docs/img/fishing.png",
-        "Shop": "https://cdn.polarlab.app/src/docs/img/shop.png",
-        "Inventory": "https://cdn.polarlab.app/src/docs/img/inventory.png",
-        "Jobs": "https://cdn.polarlab.app/src/docs/img/jobs.png"
-    },
     "Engagement": {
         "EXP & Levels": "https://cdn.polarlab.app/src/docs/img/exp.png",
         "Social Notifications": "https://cdn.polarlab.app/src/docs/img/notif.png",
         "Giveaways": "https://cdn.polarlab.app/src/docs/img/giveaways.png",
         "Random Generators": "https://cdn.polarlab.app/src/docs/img/dice.png",
         "Birthdays": "https://cdn.polarlab.app/src/docs/img/birthdays.png",
+        "Economy": "https://cdn.polarlab.app/src/docs/img/economy.png",
         "Music": "https://cdn.polarlab.app/src/docs/img/music.png",
         "Fun Commands": "https://cdn.polarlab.app/src/docs/img/api.png"
     },
