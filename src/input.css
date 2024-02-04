@@ -5,7 +5,7 @@ body {
     background: #171717;
     text-align: center;
     font-family: 'Work Sans';
-    overflow: scroll;
+    overflow: hidden;
     transition: all 600ms ease;
     -webkit-transition: all 600ms ease;
     font-size: 16px;
@@ -536,4 +536,8 @@ table {
 
 .subchapter {
     font-size: 1.125rem;
+}
+
+.docsstatusicon {
+    height: 0.8em;
 }
