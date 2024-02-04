@@ -37,21 +37,21 @@ export default function Page() {
                     </p>
                 </div>
                 <div className='warningnote note'>
-                    <img src='https://cdn.polarlab.app/src/docs/img/info.png' alt='alt' className='noteicon' />
+                    <img src='https://cdn.polarlab.app/src/docs/img/warning.png' alt='alt' className='noteicon' />
                     <p className='notetext'>
                         This is a so called warning note. This notes primary purpose is to warn you about compatibility
                         issues, issues within your configuration or critical information that you should know.
                     </p>
                 </div>
                 <div className='minornote note'>
-                    <img src='https://cdn.polarlab.app/src/docs/img/info.png' alt='alt' className='noteicon' />
+                    <img src='https://cdn.polarlab.app/src/docs/img/minor.png' alt='alt' className='noteicon' />
                     <p className='notetext'>
                         This is a minor warning note/ . This notes purpose is to give warn you about very unlikely
                         issues or just to let you acknowledge something of minor importance.
                     </p>
                 </div>
                 <div className='correctnote note'>
-                    <img src='https://cdn.polarlab.app/src/docs/img/info.png' alt='alt' className='noteicon' />
+                    <img src='https://cdn.polarlab.app/src/docs/img/correct.png' alt='alt' className='noteicon' />
                     <p className='notetext'>
                         This is a correct/check note. This note provides helpful tips to assist you, or describes a
                         specific method to achieve optimal overall results. This note can also congratulate you on your

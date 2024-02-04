@@ -112,8 +112,80 @@ export default function Page() {
                         Managing money is just as important in the real world as it is in Polaris. If you have too much
                         money, you will start losing it to inflation and you might get robbed by fellow server members.
                     </p>
+                    <p className='maintext'>
+                        For different commands to work, you need to have money in different places. Your purse or your
+                        bank account. To move money between these 2 areas, use the following commands:
+                    </p>
+                    <p className='maintext'>
+                        <span className='codeblock'>
+                            <span className='strong'>/deposit {'{user}'} - </span> Deposits money into your bank account
+                        </span>{' '}
+                        <br />
+                        <span className='codeblock'>
+                            <span className='strong'>/withdraw {'{user}'} - </span> Withdraws money into your purse
+                        </span>{' '}
+                        <br />
+                    </p>
                     <h3 className='subchapter'>Sending Money</h3>
-                    <p className=''></p>
+                    <p className='maintext'>
+                        Within Polaris, there are 2 ways of sending money to other members or your friends. You can
+                        either send money to their purse, which is not always recommended as it can be easily stolen by
+                        other people, or you can transfer money into their bank account, which is better, as for this to
+                        be stolen a bankrob must be initiated and that takes a while.
+                    </p>
+                    <p className='maintext'>
+                        <span className='codeblock'>
+                            <span className='strong'>
+                                /pay {'{user}'} {'{amount}'} -{' '}
+                            </span>{' '}
+                            This command sends money from purse to purse to another user
+                        </span>{' '}
+                        <br />
+                        <span className='codeblock'>
+                            <span className='strong'>
+                                /transfer {'{user}'} {'{amount}'} -{' '}
+                            </span>{' '}
+                            This command transfers money from yours to someone elses bank account
+                        </span>{' '}
+                        <br />
+                    </p>
+                    <h3 className='subchapter'>Robbing Others :D</h3>
+                    <p className='maintext'>
+                        If you really feel like someone has too much money in their purse or bank account, you can rob
+                        them! There are 2 ways to rob people, one is to rob someone of the money that they have in their
+                        purse, this method is quick, easy and basically uncounterable.
+                    </p>
+                    <p className='maintext'>
+                        However if your're feeling really fancy, you can break into someone bank account. This requires
+                        multiple people to join you, and a money investment from each one of you. This method is more
+                        dangerous, because if you happen to be caught or the user calls the police on you, everyone
+                        involved will lose a lot of money and possibly go to jail. However if you do manage to bankrob
+                        someone, the rewards are greater.
+                    </p>
+                    <p className='maintext'>
+                        <span className='codeblock'>
+                            <span className='strong'>/rob {'{user}'} - </span> This will rob someone of their money (10%
+                            chances of getting caught)
+                        </span>{' '}
+                        <br />
+                        <span className='codeblock'>
+                            <span className='strong'>/bankrob {'{user}'} - </span> Bankrobs someone, if not enough
+                            people join, this will fail (3+ people required)
+                        </span>{' '}
+                        <br />
+                    </p>
+                    <div className='minornote note'>
+                        <img src='https://cdn.polarlab.app/src/docs/img/minor.png' alt='alt' className='noteicon' />
+                        <p className='notetext'>
+                            Leaving a lot of money in your purse for extended periods of time is basically an invitation
+                            for someone to rob you. It is recommended to move most of your money into your bank account.
+                            It is also generally advised to keep as little money as possible and buy items instead.
+                        </p>
+                    </div>
+                </div>
+                <div className='chaptercontain'>
+                    <h2 className='chapter'>Items</h2>
+                    <hr className='chapterdivider' />
                 </div>
 
                 <div className='buttoncontainer'>
