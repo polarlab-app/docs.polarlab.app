@@ -43,7 +43,7 @@ export default function Page() {
                             <tr>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p>/report user [reason]</p>
+                                        <p>/report {'{user}'} [reason]</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>

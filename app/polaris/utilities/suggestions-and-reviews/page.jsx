@@ -38,7 +38,7 @@ export default function Page() {
                             <tr>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p>/suggest suggestion</p>
+                                        <p>/suggest {'{suggestion}'}</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
@@ -55,7 +55,9 @@ export default function Page() {
                             <tr>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p>/review review rating</p>
+                                        <p>
+                                            /review {'{review}'} {'{rating}'}
+                                        </p>
                                     </div>
                                 </td>
                                 <td className='tcell'>

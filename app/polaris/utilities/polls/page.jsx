@@ -43,7 +43,7 @@ export default function Page() {
                             <tr>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p>/poll poll time</p>
+                                        <p>/poll {'{poll}'}</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
