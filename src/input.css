@@ -513,9 +513,8 @@ table {
     background-color: #272625;
     border-radius: 5px;
     text-align: left;
-    padding: 0.5vh 0.5vw;
+    padding: 0.7vh 0.5vw;
     font-size: 12px;
-    margin: 0;
 }
 
 .strong {
@@ -540,4 +539,12 @@ table {
 
 .docsstatusicon {
     height: 0.8em;
+}
+.mainlist {
+    list-style: inside;
+    padding-left: 0;
+}
+.liststatus {
+    width: 1rem;
+    margin-right: 0.5rem;
 }

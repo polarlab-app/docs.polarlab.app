@@ -1,11 +1,12 @@
-'use client'
+'use client';
 
-import NavBar from './nav.jsx'
+import NavBar from './nav.jsx';
 
 export default function Error({ error, reset }) {
     return (
         <>
             <NavBar />
+            <p>{error.code}</p>
         </>
-    )
+    );
 }

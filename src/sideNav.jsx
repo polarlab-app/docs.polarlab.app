@@ -3,7 +3,6 @@ import { usePathname } from 'next/navigation';
 
 import Link from 'next/link';
 import pleaseworkffs from './sidenav.json';
-import Image from 'next/image';
 
 export function SideNav() {
     const pathname = usePathname();

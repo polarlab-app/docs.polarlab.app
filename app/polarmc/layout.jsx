@@ -1,7 +1,5 @@
-import { SideNav } from '../../src/sideNav.jsx';
 import { TopBar } from '../../src/topBar.jsx';
-import "../../src/input.css"
-//import "../globals.css"
+import '../../src/input.css';
 
 export const metadata = {
     title: 'Polaris Docs',
@@ -17,4 +15,3 @@ export default function PolarisLayout({ children }) {
         </section>
     );
 }
-
