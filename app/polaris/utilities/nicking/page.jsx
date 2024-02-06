@@ -49,7 +49,7 @@ export default function Page() {
                             <tr>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p>/nick nickname</p>
+                                        <p>/nick {'{nickname}'}</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
