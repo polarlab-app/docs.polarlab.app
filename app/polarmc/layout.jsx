@@ -10,7 +10,7 @@ export default function PolarisLayout({ children }) {
     return (
         <section>
             <TopBar />
-            <SideNav />
+            {/*<SideNav />*/}
             {children}
         </section>
     );
