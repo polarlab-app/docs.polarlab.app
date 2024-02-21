@@ -232,6 +232,12 @@ nav {
     text-align: left;
     margin-left: 1vw;
 }
+.subchapterdivider {
+    border: 2px solid #2f3136;
+    width: 12%;
+    border-radius: 12px;
+    margin-left: 1vw;
+}
 
 .chapterdivider {
     border: 1px solid #2f3136;
@@ -527,7 +533,15 @@ table {
     list-style: inside;
     padding-left: 0;
 }
+
 .liststatus {
     width: 1rem;
     margin-right: 0.5rem;
+}
+
+ul {
+    margin-left: 1vw;
+    padding: 0;
+    width: 70%;
+    text-align: left;
 }

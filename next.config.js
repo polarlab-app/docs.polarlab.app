@@ -2,14 +2,14 @@
 const nextConfig = {
     images: {
         remotePatterns: [
-          {
-            protocol: 'https',
-            hostname: 'cdn.polarlab.app',
-            port: '',
-            pathname: '/**',
-          },
+            {
+                protocol: 'https',
+                hostname: 'cdn.polarlab.app',
+                port: '',
+                pathname: '/**',
+            },
         ],
-      },
-}
+    },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
