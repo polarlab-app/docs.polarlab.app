@@ -7,7 +7,6 @@ export default async function Page() {
     const lines = data.body.split('\n');
 
     let subchapters = [];
-    let currentSubSection = null;
     let currentSubchapter = null;
 
     for (const line of lines) {
@@ -37,7 +36,7 @@ export default async function Page() {
                 <div className='chaptercontainer' id='latest'>
                     <h2 className='chapter'>Polaris {data.name}</h2>
                     <hr className='chapterdivider'></hr>
-                    {/*{Object.entries(subchapters).map(([subchapterTitle, items]) => (
+                    {Object.entries(subchapters).map(([subchapterTitle, items]) => (
                         <>
                             <h3 className='subchapter'>{subchapterTitle}</h3>
                             <hr className='subchapterdivider'></hr>
@@ -49,15 +48,15 @@ export default async function Page() {
                                 ))}
                             </ul>
                         </>
-                    ))}*/}
-                    {subchapters.map((subchapter) => (
+                    ))}
+                    {/*{subchapters.map((subchapter) => (
                         <>
                             <h3 className='subchapter' key={subchapter}>
                                 {subchapter}
                             </h3>
                             <hr className='subchapterdivider' key={subchapter + 'abc'}></hr>
                         </>
-                    ))}
+                    ))}*/}
                 </div>
 
                 <div className='buttoncontainer'>
