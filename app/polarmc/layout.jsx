@@ -1,5 +1,5 @@
 import { TopBar } from '../../src/topBar.jsx';
-import '../../src/input.css';
+import '../../src/docs.css';
 
 export const metadata = {
     title: 'Polaris Docs',
