@@ -38,7 +38,8 @@ export function SideNav() {
                                 href={`/polaris/${header.toLowerCase()}/${linkName
                                     .toLowerCase()
                                     .replace(/ /g, '-')
-                                    .replace(/&/g, 'and')}`}>
+                                    .replace(/&/g, 'and')
+                                    .replace(/'/g, '')}`}>
                                 <img src={linkUrl} className='imgsubtext' alt='alt' />
                                 {linkName}
                             </Link>

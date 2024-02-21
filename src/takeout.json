@@ -6,11 +6,30 @@
         "Notes": "https://cdn.polarlab.app/src/docs/img/notes.png",
         "Developer Mode": "https://cdn.polarlab.app/src/docs/img/devmode.png"
     },
+    "General": {
+        "Dashboard": "https://cdn.polarlab.app/src/docs/img/dashboard.png",
+        "Settings": "https://cdn.polarlab.app/src/docs/img/settings.png",
+        "Subscriptions": "https://cdn.polarlab.app/src/docs/img/subscriptions.png",
+        "Account": "https://cdn.polarlab.app/src/docs/img/account.png"
+    },
     "Core": {
         "Ping": "https://cdn.polarlab.app/src/docs/img/ping.png",
         "Uptime": "https://cdn.polarlab.app/src/docs/img/uptime.png",
         "Maintenance": "https://cdn.polarlab.app/src/docs/img/maintenance.png",
         "Stopping & Restarts": "https://cdn.polarlab.app/src/docs/img/stopping.png"
+    },
+    "Moderation": {
+        "Banning": "https://cdn.polarlab.app/src/docs/img/bans.png",
+        "Warns": "https://cdn.polarlab.app/src/docs/img/warns.png",
+        "Muting": "https://cdn.polarlab.app/src/docs/img/mutes.png",
+        "Server Guard": "https://cdn.polarlab.app/src/docs/img/guard.png",
+        "Verification": "https://cdn.polarlab.app/src/docs/img/verification.png",
+        "Automod": "https://cdn.polarlab.app/src/docs/img/automod.png"
+    },
+    "Support": {
+        "Tickets": "https://cdn.polarlab.app/src/docs/img/tickets.png",
+        "Modmail": "https://cdn.polarlab.app/src/docs/img/modmail.png",
+        "Help": "https://cdn.polarlab.app/src/docs/img/help.png"
     },
     "Utilities": {
         "Polls": "https://cdn.polarlab.app/src/docs/img/polls.png",
@@ -20,8 +39,20 @@
     },
     "Engagement": {
         "EXP & Levels": "https://cdn.polarlab.app/src/docs/img/exp.png",
+        "Social Notifications": "https://cdn.polarlab.app/src/docs/img/notif.png",
+        "Giveaways": "https://cdn.polarlab.app/src/docs/img/giveaways.png",
+        "Random Generators": "https://cdn.polarlab.app/src/docs/img/dice.png",
+        "Birthdays": "https://cdn.polarlab.app/src/docs/img/birthdays.png",
         "Economy": "https://cdn.polarlab.app/src/docs/img/begging.png",
-        "Music": "https://cdn.polarlab.app/src/docs/img/music.png"
+        "Music": "https://cdn.polarlab.app/src/docs/img/music.png",
+        "Fun Commands": "https://cdn.polarlab.app/src/docs/img/api.png"
+    },
+    "Insights": {
+        "Analytics": "https://cdn.polarlab.app/src/docs/img/analytics.png",
+        "Message Counting": "https://cdn.polarlab.app/src/docs/img/messages.png",
+        "Leaderboards": "https://cdn.polarlab.app/src/docs/img/leaderboard.png",
+        "Invite Tracking": "https://cdn.polarlab.app/src/docs/img/invites.png",
+        "Statistics Channels": "https://cdn.polarlab.app/src/docs/img/account.png"
     },
     "Logs": {
         "Server Logs": "https://cdn.polarlab.app/src/docs/img/devmode.png",

@@ -8,6 +8,9 @@ export default function Page() {
                 <a className='qnsub' href='#cloning'>
                     Cloning Polaris
                 </a>
+                <a className='qnsub' href='#creating'>
+                    Creating Modules
+                </a>
             </div>
             <div className='mainsection'>
                 <h6 className='directory'>Polaris Docs / Modules / Creating Modules</h6>
@@ -41,7 +44,7 @@ export default function Page() {
                         provided command should automatically clone the dev branch, but please check to be sure!
                     </p>
                 </div>
-                <div className='chaptercontainer' id='developing'>
+                <div className='chaptercontainer' id='creating'>
                     <h2 className='chapter'>Developing Modules</h2>
                     <hr className='chapterdivider'></hr>
                     <div className='note warningnote'>
@@ -60,7 +63,13 @@ export default function Page() {
                             point.
                         </p>
                     </div>
-                    <p className='maintext'></p>
+                    <p className='maintext'>
+                        To actually create a module create a new folder inside "commands" or "events", with the name of
+                        your module. Inside that folder you can create files for all your commands using the templates
+                        stored in /templates. In this folder, you can create virtually any command or event you want.
+                        These can use APIs, external images etc. For creating events, the folder must be named the asme
+                        as the event name.
+                    </p>
                 </div>
 
                 <div className='buttoncontainer'>
@@ -70,12 +79,12 @@ export default function Page() {
                             src='https://cdn.polarlab.app/src/docs/img/rightarrow.png'
                             alt='alt'
                         />
-                        <Link className='lastbtn' href='/polaris/legal/terms-of-service'>
+                        <Link className='lastbtn' href='/polaris/modules/modules-overview'>
                             Last Page
                         </Link>
                     </div>
                     <div className='nextbutton'>
-                        <Link className='nextbtn' href='/polaris/bonus'>
+                        <Link className='nextbtn' href='/polaris/modules/uploading-modules'>
                             Next Page
                         </Link>
                         <img
