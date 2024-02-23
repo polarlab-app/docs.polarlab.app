@@ -239,6 +239,17 @@ nav {
     margin-left: 1vw;
 }
 
+.subsubchapter {
+    text-align: left;
+    margin-left: 1vw;
+}
+.subsubchapterdivider {
+    border: 1px solid #505050;
+    width: 10%;
+    border-radius: 12px;
+    margin-left: 1vw;
+}
+
 .chapterdivider {
     border: 1px solid #2f3136;
     border-radius: 20px;
