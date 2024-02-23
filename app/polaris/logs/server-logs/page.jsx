@@ -35,10 +35,52 @@ export default function Page() {
                         Server logs try to provide you with the most information as possible, while remaining in an easy
                         to read format. The following data is logged:
                     </p>
+                    <p className='maintext'>
+                        <ol className='mainlist'>
+                            <li className='mainlistitem'>
+                                <span className='codeblock'>Server Name</span>
+                            </li>
+                            <li className='mainlistitem'>
+                                <span className='codeblock'>Server ID</span>
+                            </li>
+                            <li className='mainlistitem'>
+                                <span className='codeblock'>The action taken</span>
+                            </li>
+                            <li className='mainlistitem'>
+                                <span className='codeblock'>Before and after the action</span>
+                            </li>
+                            <li className='mainlistitem'>
+                                <span className='codeblock'>Action Author</span>
+                            </li>
+                            <li className='mainlistitem'>
+                                <span className='codeblock'>Time & Date</span>
+                            </li>
+                        </ol>
+                    </p>
                 </div>
                 <div className='chaptercontainer' id='supported-events'>
                     <h2 className='chapter'>Supported Events</h2>
                     <hr className='chapterdivider'></hr>
+                    <p className='maintext'>These following events are officially supported for server updates:</p>
+                    <p className='maintext'>
+                        <ol className='mainlist'>
+                            <li className='mainlistitem'>
+                                <span className='codeblock'>guildUpdate</span>
+                            </li>
+                            <li className='mainlistitem'>
+                                <span className='codeblock'>inviteCreate</span>
+                            </li>
+                            <li className='mainlistitem'>
+                                <span className='codeblock'>inviteDelete</span>
+                            </li>
+                            <li className='mainlistitem'>
+                                <span className='codeblock'>guildCreate</span>
+                            </li>
+                            <li className='mainlistitem'>
+                                <span className='codeblock'>guildDelete</span>
+                            </li>
+                        </ol>
+                    </p>
                 </div>
 
                 <div className='buttoncontainer'>
