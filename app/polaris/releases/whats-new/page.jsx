@@ -6,7 +6,7 @@ export default async function Page() {
 
     const lines = data.body.split('\n');
 
-    let subchapters = [];
+    /*let subchapters = [];
     let currentSubchapter = null;
 
     for (const line of lines) {
@@ -17,6 +17,38 @@ export default async function Page() {
         } else if (line.startsWith('- ') && currentSubchapter) {
             const formattedList = line.replace(/- /g, '').replace(/[**]/g, '');
             subchapters[currentSubchapter].push(formattedList);
+        }
+    }*/
+
+    let currentSubchapter = null;
+    let currentSubSubchapter = null;
+    let subchapters = {};
+
+    for (const line of lines) {
+        if (line.startsWith('### ') && !line.startsWith('####')) {
+            const formattedLine = line.replace(/### /g, '');
+            currentSubchapter = formattedLine;
+            subchapters[currentSubchapter] = [];
+            currentSubSubchapter = null;
+        } else if (line.startsWith('####')) {
+            const formattedLine = line.replace(/#### /g, '');
+            currentSubSubchapter = formattedLine;
+            subchapters[currentSubchapter].push({
+                title: currentSubSubchapter,
+                items: [],
+            });
+        } else if (line.startsWith('- ')) {
+            const formattedList = line.replace(/- /g, '').replace(/[**]/g, '');
+            if (currentSubSubchapter) {
+                const currentSubSubchapterItem = subchapters[currentSubchapter].find(
+                    (item) => item.title === currentSubSubchapter
+                );
+                if (currentSubSubchapterItem) {
+                    currentSubSubchapterItem.items.push(formattedList);
+                }
+            } else {
+                subchapters[currentSubchapter].push(formattedList);
+            }
         }
     }
 
@@ -36,7 +68,34 @@ export default async function Page() {
                 <div className='chaptercontainer' id='latest'>
                     <h2 className='chapter'>Polaris {data.name}</h2>
                     <hr className='chapterdivider'></hr>
-                    {Object.entries(subchapters).map(([subchapterTitle, items]) => (
+                    {Object.entries(subchapters).map(([subchapter, content], index) => (
+                        <div key={index}>
+                            <h3 className='subchapter'>{subchapter}</h3>
+                            <hr className='subchapterdivider'></hr>
+                            {content.map((item, itemIndex) => (
+                                <div key={itemIndex}>
+                                    {typeof item === 'string' ? (
+                                        <ul className='mainlist'>
+                                            <li className='strong'>{item}</li>
+                                        </ul>
+                                    ) : (
+                                        <>
+                                            <h4 className='subsubchapter'>{item.title}</h4>
+                                            <hr className='subsubchapterdivider'></hr>
+                                            <ul className='mainlist'>
+                                                {item.items.map((listItem, listItemIndex) => (
+                                                    <li className='strong' key={listItemIndex}>
+                                                        {listItem}
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </>
+                                    )}
+                                </div>
+                            ))}
+                        </div>
+                    ))}
+                    {/*{Object.entries(subchapters).map(([subchapterTitle, items]) => (
                         <>
                             <h3 className='subchapter'>{subchapterTitle}</h3>
                             <hr className='subchapterdivider'></hr>
@@ -48,7 +107,7 @@ export default async function Page() {
                                 ))}
                             </ul>
                         </>
-                    ))}
+                                ))}*/}
                     {/*{subchapters.map((subchapter) => (
                         <>
                             <h3 className='subchapter' key={subchapter}>
