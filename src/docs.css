@@ -31,7 +31,7 @@ nav {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .toplink {
@@ -67,16 +67,6 @@ nav {
     background-color: #2f3136;
     transition: all 600ms ease;
     -webkit-transition: all 600ms ease;
-}
-
-.menu {
-    height: 1.5vh;
-    display: none;
-}
-
-.menu:hover .sidenav {
-    display: block;
-    position: absolute;
 }
 
 .sidenav {
@@ -223,6 +213,10 @@ nav {
     margin: 2% 1%;
 }
 
+.chaptercontainer {
+    width: 70%;
+}
+
 .chapter {
     text-align: left;
     margin-left: 1vw;
@@ -253,7 +247,6 @@ nav {
 .chapterdivider {
     border: 1px solid #2f3136;
     border-radius: 20px;
-    width: 70%;
     margin-left: 1vw;
 }
 
@@ -276,13 +269,11 @@ nav {
     color: #ebebeb;
     text-align: left;
     margin-left: 1vw;
-    width: 70%;
     font-size: 0.875rem;
     line-height: 3.3vh;
 }
 
 .mainimg {
-    width: 70%;
     margin-left: 1vw;
     float: left;
     border-radius: 5px;
@@ -467,7 +458,6 @@ nav {
 
 table {
     margin-left: 1vw;
-    width: 71%;
 }
 
 .thead {
@@ -553,6 +543,130 @@ table {
 ul {
     margin-left: 1vw;
     padding: 0;
-    width: 70%;
     text-align: left;
+}
+
+.roadmaptext {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.roadmaptimeline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roadmappoint {
+    background-color: rgb(0, 230, 157, 0.3);
+    border-radius: 12px;
+    width: 1.7vh;
+    height: 1.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roadmapdivider {
+    border: 1px solid #2f3136;
+    width: 6%;
+    border-radius: 12px;
+    margin: 0 2%;
+}
+
+.roadmappointinside {
+    background-color: rgb(0, 230, 157);
+    border-radius: 12px;
+    height: 50%;
+    width: 50%;
+}
+
+.closeicon,
+.homeicon,
+.menuicon {
+    display: none;
+    height: 2vh;
+}
+
+.block {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .homeicon,
+    .menuicon {
+        display: block;
+    }
+    .chaptercontainer {
+        width: 96%;
+    }
+    .sidenav {
+        transition: all 600ms ease;
+        width: 0;
+        opacity: 0;
+    }
+    .quicknav {
+        display: none;
+    }
+    .mainsection {
+        margin: 0;
+        float: left;
+        width: 100%;
+    }
+    .logocontainer {
+        width: 30%;
+        margin: 0;
+    }
+
+    .polarplus {
+        display: none;
+    }
+
+    .activesidenav {
+        opacity: 1;
+        width: 80%;
+        border-right: 1px solid #505050;
+        border-radius: 0 12px 12px 0;
+        background-color: #171717;
+        transition: all 600ms ease;
+    }
+    .imgsubtext {
+        margin: 0 5%;
+    }
+    .menuheader {
+        margin: 2%;
+        width: 90%;
+    }
+
+    .logocontainer {
+        width: 50%;
+    }
+    .toplink,
+    .toplink2 {
+        display: none;
+    }
+    .note {
+        width: 100%;
+    }
+    .buttoncontainer {
+        width: 96%;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .lastbutton,
+    .nextbutton {
+        width: 30%;
+    }
+
+    .lastarrow,
+    .nextarrow {
+        margin: 0 7%;
+    }
+}
+
+.docswrapper {
+    position: relative;
 }

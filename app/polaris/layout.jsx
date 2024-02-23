@@ -9,10 +9,10 @@ export const metadata = {
 
 export default function PolarisLayout({ children }) {
     return (
-        <section>
+        <div className='docswrapper'>
             <TopBar />
             <SideNav />
             {children}
-        </section>
+        </div>
     );
 }
