@@ -207,3 +207,34 @@ a {
     filter: blur(0);
     transform: translateY(0);
 }
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: 98%;
+        margin: 0 1%;
+    }
+
+    .featuregrid {
+        grid-template-rows: 16%;
+    }
+    .griditem {
+        margin-top: 3vh;
+        grid-column: span 6;
+        grid-row: span 2;
+        height: 45vh;
+    }
+    .gridimg {
+        height: 40%;
+        position: absolute;
+        bottom: 3%;
+        right: 10%;
+    }
+    .gridheader {
+        width: 220%;
+        text-align: center;
+    }
+    .gridcontent {
+        float: none;
+        width: 230%;
+    }
+}
