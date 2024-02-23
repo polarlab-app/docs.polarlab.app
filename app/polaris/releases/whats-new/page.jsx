@@ -6,20 +6,6 @@ export default async function Page() {
 
     const lines = data.body.split('\n');
 
-    /*let subchapters = [];
-    let currentSubchapter = null;
-
-    for (const line of lines) {
-        if (line.startsWith('### ') && !line.startsWith('####')) {
-            const formattedLine = line.replace(/### /g, '');
-            currentSubchapter = formattedLine;
-            subchapters[currentSubchapter] = [];
-        } else if (line.startsWith('- ') && currentSubchapter) {
-            const formattedList = line.replace(/- /g, '').replace(/[**]/g, '');
-            subchapters[currentSubchapter].push(formattedList);
-        }
-    }*/
-
     let currentSubchapter = null;
     let currentSubSubchapter = null;
     let subchapters = {};
@@ -95,27 +81,6 @@ export default async function Page() {
                             ))}
                         </div>
                     ))}
-                    {/*{Object.entries(subchapters).map(([subchapterTitle, items]) => (
-                        <>
-                            <h3 className='subchapter'>{subchapterTitle}</h3>
-                            <hr className='subchapterdivider'></hr>
-                            <ul className='mainlist'>
-                                {items.map((item, index) => (
-                                    <li key={index} className='strong'>
-                                        {item}
-                                    </li>
-                                ))}
-                            </ul>
-                        </>
-                                ))}*/}
-                    {/*{subchapters.map((subchapter) => (
-                        <>
-                            <h3 className='subchapter' key={subchapter}>
-                                {subchapter}
-                            </h3>
-                            <hr className='subchapterdivider' key={subchapter + 'abc'}></hr>
-                        </>
-                    ))}*/}
                 </div>
 
                 <div className='buttoncontainer'>
