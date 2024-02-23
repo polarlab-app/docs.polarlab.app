@@ -458,6 +458,7 @@ nav {
 
 table {
     margin-left: 1vw;
+    width: 99%;
 }
 
 .thead {
@@ -503,7 +504,7 @@ table {
     background-color: #272625;
     border-radius: 5px;
     text-align: left;
-    padding: 0.7vh 0.5vw;
+    padding: 0.5vh 0.5vw;
     font-size: 12px;
 }
 
