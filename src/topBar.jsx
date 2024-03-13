@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 
-export function TopBar() {
+export default function TopBar() {
     async function handleMobile() {
         if (typeof document !== 'undefined') {
             const sideNavElement = await document.getElementById('nav');

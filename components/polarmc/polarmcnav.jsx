@@ -2,7 +2,7 @@
 import { usePathname } from 'next/navigation';
 
 import Link from 'next/link';
-import pleaseworkffs from './sidenav.json';
+import data from './polarmcnav.json';
 
 export default function SideNav() {
     const pathname = usePathname();
@@ -10,18 +10,18 @@ export default function SideNav() {
     return (
         <div className='sidenav' id='nav'>
             <div className='menuheader'>
-                <Link href='/polaris'>
+                <Link href='/polarmc'>
                     <img
                         className='img'
                         src='https://cdn.polarlab.app/src/docs/img/docs-default.png'
                         alt='alt'
                         align='left'
                     />
-                    Polaris Docs
+                    PolarMC Docs
                 </Link>
             </div>
 
-            {Object.entries(pleaseworkffs).map(([header, links]) => (
+            {Object.entries(data).map(([header, links]) => (
                 <div key={header} className='menuheader'>
                     {header}{' '}
                     <img src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' alt='alt' className='rightarrow' />
@@ -31,11 +31,11 @@ export default function SideNav() {
                                 key={linkName}
                                 className={`subtext ${
                                     pathname ===
-                                    `/polaris/${header.toLowerCase()}/${linkName.toLowerCase().replace(/ /g, '-')}`
+                                    `/polarmc/${header.toLowerCase()}/${linkName.toLowerCase().replace(/ /g, '-')}`
                                         ? 'subtextactive'
                                         : ''
                                 }`}
-                                href={`/polaris/${header.toLowerCase()}/${linkName
+                                href={`/polarmc/${header.toLowerCase()}/${linkName
                                     .toLowerCase()
                                     .replace(/ /g, '-')
                                     .replace(/&/g, 'and')
