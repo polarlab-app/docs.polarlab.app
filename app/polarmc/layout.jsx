@@ -1,16 +1,17 @@
-import { TopBar } from '../../src/topBar.jsx';
+import TopBar from '../../src/topBar.jsx';
+import SideNav from '@/components/polarmc/polarmcnav.jsx';
 import '../../src/docs.css';
 
 export const metadata = {
-    title: 'Polaris Docs',
-    description: 'Polaris Docs Website',
+    title: 'PolarMC Docs',
+    description: 'PolarMC Docs Website',
 };
 
 export default function PolarisLayout({ children }) {
     return (
         <section>
             <TopBar />
-            {/*<SideNav />*/}
+            <SideNav />
             {children}
         </section>
     );
