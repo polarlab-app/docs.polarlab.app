@@ -3,18 +3,18 @@ export default function Page() {
         <>
             <div className='quicknav'>
                 <a className='qntitle'>CONTENT</a>
-                <a className='qnsub' href='#cloning'>
-                    Cloning Polaris
+                <a className='qnsub' href='#dps'>
+                    Datapack List
                 </a>
-                <a className='qnsub' href='#creating'>
-                    Creating Modules
+                <a className='qnsub' href='#pls'>
+                    Plugin List
                 </a>
             </div>
             <div className='mainsection'>
                 <h6 className='directory'>Polar MC Docs / Information / Expansions</h6>
                 <h1 className='title'>Expansions</h1>
                 <hr className='divider'></hr>
-                <div className='chaptercontainer' id='cloning'>
+                <div className='chaptercontainer' id='dps'>
                     <h2 className='chapter'>Datapacks</h2>
                     <hr className='chapterdivider'></hr>
                     <p className='maintext'>
@@ -465,7 +465,7 @@ export default function Page() {
                         </table>
                     </p>
                 </div>
-                <div className='chaptercontainer' id='cloning'>
+                <div className='chaptercontainer' id='pls'>
                     <h2 className='chapter'>Plugins</h2>
                     <hr className='chapterdivider'></hr>
                     <p className='maintext'>
@@ -489,12 +489,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>AdvancedPlugins</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://ae.advancedplugins.net/</p>
                                     </div>
                                 </td>
                             </tr>
@@ -506,12 +506,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>EssentialsX Team</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://essentialsx.net/</p>
                                     </div>
                                 </td>
                             </tr>
@@ -523,12 +523,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>EssentialsX Team</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://essentialsx.net/</p>
                                     </div>
                                 </td>
                             </tr>
@@ -540,12 +540,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>BlueColored</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://modrinth.com/plugin/bluemap</p>
                                     </div>
                                 </td>
                             </tr>
@@ -557,12 +557,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>Pop4959</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://modrinth.com/plugin/chunky</p>
                                     </div>
                                 </td>
                             </tr>
@@ -574,12 +574,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>Pop4959</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://modrinth.com/plugin/chunkyborder</p>
                                     </div>
                                 </td>
                             </tr>
@@ -591,12 +591,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>Frafol</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://modrinth.com/plugin/cleanping</p>
                                     </div>
                                 </td>
                             </tr>
@@ -608,12 +608,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>Intelli</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://modrinth.com/plugin/coreprotect</p>
                                     </div>
                                 </td>
                             </tr>
@@ -625,12 +625,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>GeyserMC</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://geysermc.org/</p>
                                     </div>
                                 </td>
                             </tr>
@@ -642,12 +642,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>GeyserMC</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://geysermc.org/</p>
                                     </div>
                                 </td>
                             </tr>
@@ -659,12 +659,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>Jannyboy11</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://modrinth.com/plugin/invsee++</p>
                                     </div>
                                 </td>
                             </tr>
@@ -676,12 +676,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>Emanon</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://www.spigotmc.org/resources/itemedit-1-8-x-1-20-x.40993/</p>
                                     </div>
                                 </td>
                             </tr>
@@ -693,12 +693,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>Luckperms</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://luckperms.net/</p>
                                     </div>
                                 </td>
                             </tr>
@@ -710,12 +710,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>kennytv</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://modrinth.com/plugin/maintenance</p>
                                     </div>
                                 </td>
                             </tr>
@@ -727,12 +727,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>Ingrim4</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://modrinth.com/plugin/orebfuscator</p>
                                     </div>
                                 </td>
                             </tr>
@@ -744,12 +744,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>HelpChat</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://www.spigotmc.org/resources/placeholderapi.6245/</p>
                                     </div>
                                 </td>
                             </tr>
@@ -761,12 +761,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>TheDutchRuben</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://modrinth.com/plugin/tdr-playtime</p>
                                     </div>
                                 </td>
                             </tr>
@@ -778,12 +778,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>dmulloy2</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://www.spigotmc.org/resources/protocollib.1997/</p>
                                     </div>
                                 </td>
                             </tr>
@@ -795,12 +795,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>hraponssi</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://modrinth.com/plugin/sleeper</p>
                                     </div>
                                 </td>
                             </tr>
@@ -812,12 +812,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>Lucko</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://spark.lucko.me/</p>
                                     </div>
                                 </td>
                             </tr>
@@ -829,12 +829,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>MyzelYam</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://www.spigotmc.org/resources/supervanish-be-invisible.1331/</p>
                                     </div>
                                 </td>
                             </tr>
@@ -846,12 +846,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>NEZNAMY</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://modrinth.com/plugin/tab-was-taken</p>
                                     </div>
                                 </td>
                             </tr>
@@ -863,12 +863,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>jpenilla</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://modrinth.com/plugin/tabtps</p>
                                     </div>
                                 </td>
                             </tr>
@@ -880,12 +880,12 @@ export default function Page() {
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>Sleaker</p>
                                     </div>
                                 </td>
                                 <td className='tcell'>
                                     <div className='tddiv'>
-                                        <p></p>
+                                        <p>https://www.spigotmc.org/resources/vault.34315/</p>
                                     </div>
                                 </td>
                             </tr>
