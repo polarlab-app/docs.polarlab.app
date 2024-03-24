@@ -1,3 +1,4 @@
+import ButtonContainer from '@/components/core/buttonContainer';
 import Link from 'next/link';
 import { JSDOM } from 'jsdom';
 export default async function Page() {
@@ -83,29 +84,8 @@ export default async function Page() {
                     ))}
                 </div>
 
-                <div className='buttoncontainer'>
-                    <div className='lastbutton'>
-                        <img
-                            className='lastarrow'
-                            src='https://cdn.polarlab.app/src/docs/img/rightarrow.png'
-                            alt='alt'
-                        />
-                        <Link className='lastbtn' href='/polaris/legal/terms-of-service'>
-                            Last Page
-                        </Link>
-                    </div>
-                    <div className='nextbutton'>
-                        <Link className='nextbtn' href='/polaris/bonus'>
-                            Next Page
-                        </Link>
-                        <img
-                            className='nextarrow'
-                            src='https://cdn.polarlab.app/src/docs/img/rightarrow.png'
-                            alt='alt'
-                        />
-                    </div>
-                </div>
-                <div className='spacebox'></div>
+                
+                <ButtonContainer />
             </div>
         </>
     );

@@ -1,3 +1,4 @@
+import ButtonContainer from '@/components/core/buttonContainer';
 import Link from 'next/link';
 
 export default function Page() {
@@ -44,21 +45,8 @@ export default function Page() {
                     <span className='codeblock'>{`[optional variable]`}</span>.
                 </p>
             </div>
-            <div className='buttoncontainer'>
-                <div className='lastbutton'>
-                    <img className='lastarrow' src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' alt='alt' />
-                    <Link className='lastbtn' href='/polaris/information/commands'>
-                        Last Page
-                    </Link>
-                </div>
-                <div className='nextbutton'>
-                    <Link className='nextbtn' href='/polaris/information/modules'>
-                        Next Page
-                    </Link>
-                    <img className='nextarrow' src='https://cdn.polarlab.app/src/docs/img/rightarrow.png' alt='alt' />
-                </div>
-            </div>
-            <div className='spacebox'></div>
+            
+            <ButtonContainer />
         </div>
     );
 }

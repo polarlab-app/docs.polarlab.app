@@ -1,0 +1,91 @@
+.buttoncontainer {
+    width: 70%;
+    font-weight: 600;
+    margin-left: 1vw;
+    padding: 1.5vh 0vh;
+}
+
+.lastbutton {
+    border-radius: 5px;
+    padding: 1vh 1.5vw;
+    width: auto;
+    display: inline;
+    float: left;
+    border: 1px solid #2f3136;
+    text-decoration: none;
+    color: #e5e5e5;
+    transition: all 600ms ease;
+    cursor: pointer;
+}
+
+.lastbutton:hover {
+    background-color: #2f3136;
+    transition: all 600ms ease;
+    cursor: pointer;
+}
+
+.nextbutton {
+    border-radius: 5px;
+    padding: 1vh 1.5vw;
+    width: auto;
+    display: inline;
+    float: right;
+    border: 1px solid #2f3136;
+    text-decoration: none;
+    color: #e5e5e5;
+    transition: all 600ms ease;
+    cursor: pointer;
+}
+
+.nextbutton:hover {
+    background-color: #2f3136;
+    transition: all 600ms ease;
+    cursor: pointer;
+}
+
+.lastarrow {
+    height: 1vh;
+    margin-right: 0.7vw;
+    transform: rotate(180deg);
+    width: auto;
+}
+
+.nextarrow {
+    height: 1vh;
+    margin-left: 0.7vw;
+    width: auto;
+}
+
+.spacebox {
+    height: 6vh;
+}
+
+.lastbtn {
+    text-decoration: none;
+    color: #e5e5e5;
+}
+
+.nextbtn {
+    text-decoration: none;
+    color: #e5e5e5;
+}
+
+@media screen and (max-width: 768px) {
+    .buttoncontainer {
+        width: 96%;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .lastbutton,
+    .nextbutton {
+        width: 30%;
+    }
+
+    .lastarrow,
+    .nextarrow {
+        margin: 0 7%;
+    }
+}
