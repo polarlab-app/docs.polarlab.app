@@ -1,4 +1,7 @@
 {
+    "": {
+        "": ""
+    },
     "information": {
         "commands": "https://cdn.polarlab.app/src/docs/img/commands.png",
         "variables": "https://cdn.polarlab.app/src/docs/img/variables.png",
@@ -45,5 +48,8 @@
     "legal": {
         "terms-of-service": "https://cdn.polarlab.app/src/docs/img/terms.png",
         "privacy-policy": "https://cdn.polarlab.app/src/docs/img/privacy.png"
+    },
+    "bonus": {
+        "": ""
     }
 }

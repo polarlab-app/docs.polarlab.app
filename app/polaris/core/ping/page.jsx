@@ -1,5 +1,4 @@
 import ButtonContainer from '@/components/core/buttonContainer';
-'use client';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -158,7 +157,7 @@ export default function Page() {
                         </tbody>
                     </table>
                 </div>
-                
+
                 <ButtonContainer />
             </div>
         </>
