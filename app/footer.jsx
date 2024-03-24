@@ -7,11 +7,7 @@ export default function Footer() {
         <footer className='footercontainer'>
             <div className='footer'>
                 <div className='footertop'>
-                    <img
-                        src='https://cdn.discordapp.com/attachments/1018171583111647313/1162688848522903632/twothirdsactual.png?ex=6561c35f&is=654f4e5f&hm=b3f64b1e065f460f6ffb8696e09c25b9403445838843380ccba334dbde47fc5e&'
-                        className='footerlogo'
-                        alt='alt'
-                    />
+                    <img src='https://cdn.polarlab.app/src/img/polarlogo.png' className='footerlogo' alt='alt' />
                     <h1 className='footerheader'>Polar Lab</h1>
                     <p className='dbtn' href='https://polarlab.app/discord'>
                         Discord
@@ -89,26 +85,18 @@ export default function Footer() {
                     <Link className='product' href='https://polarlab.app/status'>
                         Polaris Status:
                     </Link>
-                    <img
-                        src='https://cdn.discordapp.com/attachments/1018171583111647313/1162688848522903632/twothirdsactual.png?ex=6561c35f&is=654f4e5f&hm=b3f64b1e065f460f6ffb8696e09c25b9403445838843380ccba334dbde47fc5e&'
-                        className='statusicon'
-                        alt='alt'
-                    />
+                    <img src='https://cdn.polarlab.app/src/icons/status/indigo.png' className='statusicon' alt='alt' />
                     <Link className='statustext' href='https://polarlab.app/status'>
                         Online
                     </Link>
                 </div>
                 <div className='socials'>
                     <img
-                        src='https://cdn.discordapp.com/attachments/1018171583111647313/1162688848522903632/twothirdsactual.png?ex=6561c35f&is=654f4e5f&hm=b3f64b1e065f460f6ffb8696e09c25b9403445838843380ccba334dbde47fc5e&'
+                        src='https://cdn.polarlab.app/src/main/img/discordlogo.png'
                         className='discordlogo'
                         alt='alt'
                     />
-                    <img
-                        src='https://cdn.discordapp.com/attachments/1018171583111647313/1162688848522903632/twothirdsactual.png?ex=6561c35f&is=654f4e5f&hm=b3f64b1e065f460f6ffb8696e09c25b9403445838843380ccba334dbde47fc5e&'
-                        className='discordlogo'
-                        alt='alt'
-                    />
+                    <img src='https://cdn.polarlab.app/src/main/img/githublogo.png' className='discordlogo' alt='alt' />
                 </div>
             </div>
         </footer>
