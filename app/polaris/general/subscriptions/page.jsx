@@ -1,3 +1,4 @@
+import ButtonContainer from '@/components/core/buttonContainer';
 import Image from 'next/image';
 
 export default function Page() {

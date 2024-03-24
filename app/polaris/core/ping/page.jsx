@@ -1,3 +1,4 @@
+import ButtonContainer from '@/components/core/buttonContainer';
 'use client';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -157,29 +158,8 @@ export default function Page() {
                         </tbody>
                     </table>
                 </div>
-                <div className='buttoncontainer'>
-                    <div className='lastbutton'>
-                        <img
-                            className='lastarrow'
-                            src='https://cdn.polarlab.app/src/docs/img/rightarrow.png'
-                            alt='alt'
-                        />
-                        <Link className='lastbtn' href='/polaris/general/account'>
-                            Last Page
-                        </Link>
-                    </div>
-                    <div className='nextbutton'>
-                        <Link className='nextbtn' href='/polaris/core/uptime'>
-                            Next Page
-                        </Link>
-                        <img
-                            className='nextarrow'
-                            src='https://cdn.polarlab.app/src/docs/img/rightarrow.png'
-                            alt='alt'
-                        />
-                    </div>
-                </div>
-                <div className='spacebox'></div>
+                
+                <ButtonContainer />
             </div>
         </>
     );

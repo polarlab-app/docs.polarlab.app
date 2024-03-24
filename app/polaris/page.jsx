@@ -1,3 +1,4 @@
+import ButtonContainer from '@/components/core/buttonContainer';
 import Link from 'next/link';
 import Image from 'next/image';
 export default function Page() {
@@ -58,19 +59,8 @@ export default function Page() {
                         layout ensures you can find the information you need promptly.
                     </p>
                 </div>
-                <div className='buttoncontainer'>
-                    <div className='nextbutton'>
-                        <Link className='nextbtn' href='/polaris/information/commands'>
-                            Next Page
-                        </Link>
-                        <img
-                            className='nextarrow'
-                            src='https://cdn.polarlab.app/src/docs/img/rightarrow.png'
-                            alt='alt'
-                        />
-                    </div>
-                </div>
-                <div className='spacebox'></div>
+                
+                <ButtonContainer />
             </div>
         </>
     );
