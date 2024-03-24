@@ -1,4 +1,3 @@
-import ButtonContainer from '@/components/core/buttonContainer';
 import SideNav from '../../src/sideNav.jsx';
 import TopBar from '../../src/topBar.jsx';
 import '../../src/docs.css';
