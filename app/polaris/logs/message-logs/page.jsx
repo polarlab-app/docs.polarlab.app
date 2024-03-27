@@ -34,6 +34,10 @@ export default function Page() {
                         Message logs are a useful feature to see deleted messages, that could contain some offensive or
                         against the rules content.
                     </p>
+                    <p className='maintext'>
+                        The default channel where the logs are stored has a topic of{' '}
+                        <span className='codeblock'>pmesssagelogs</span>. This can be modified in the web dashboard.
+                    </p>
                 </div>
                 <div className='chaptercontainer' id='data-logged'>
                     <h2 className='chapter'>Data Logged</h2>
@@ -59,7 +63,7 @@ export default function Page() {
                 <div className='chaptercontainer' id='supported-events'>
                     <h2 className='chapter'>Supported Events</h2>
                     <hr className='chapterdivider'></hr>
-                    <p className='maintext'>As of Polaris V2.4 🥬 Lettuce, all events are officially supported:</p>
+                    <p className='maintext'>As of Polaris V2.5 🍐 Pear, all events are officially supported:</p>
                     <p className='maintext'>
                         <ol className='mainlist'>
                             <li className='mainlistitem'>
@@ -72,7 +76,6 @@ export default function Page() {
                     </p>
                 </div>
 
-                
                 <ButtonContainer />
             </div>
         </>

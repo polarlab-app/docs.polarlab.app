@@ -28,6 +28,10 @@ export default function Page() {
                         that happens ranging from an invite being created to the server name being changed without your
                         permissions.
                     </p>
+                    <p className='maintext'>
+                        The default channel where the logs are stored has a topic of{' '}
+                        <span className='codeblock'>pserverlogs</span>. This can be modified in the web dashboard.
+                    </p>
                 </div>
                 <div className='chaptercontainer' id='data-logged'>
                     <h2 className='chapter'>Data Logged</h2>
@@ -84,7 +88,6 @@ export default function Page() {
                     </p>
                 </div>
 
-                
                 <ButtonContainer />
             </div>
         </>

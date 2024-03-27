@@ -31,7 +31,7 @@ export default function Page() {
                     </p>
                     <p className='maintext'>
                         The default channel where the logs are stored has a topic of{' '}
-                        <span className='codeblock'>plogschannel</span>. This can be modified in the web dashboard.
+                        <span className='codeblock'>pchannellogs</span>. This can be modified in the web dashboard.
                     </p>
                 </div>
                 <div className='chaptercontainer' id='data-logged'>
@@ -74,7 +74,6 @@ export default function Page() {
                     </p>
                 </div>
 
-                
                 <ButtonContainer />
             </div>
         </>

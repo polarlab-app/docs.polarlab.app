@@ -40,13 +40,12 @@ export default function Page() {
                     <h2 className='chapter'>Controlling Modules</h2>
                     <hr className='chapterdivider'></hr>
                     <p className='maintext'>
-                        Modules can additionally be disable if you no longer need them, or just wanted to test them out.
-                        Modules also need to be reloaded after every update, because we use guild commands for modules.
-                        Using guild commands doesn't allow commands to be automatically updated by Discord.
+                        Modules can additionally be disabled if you no longer need them, or just wanted to test them
+                        out. Modules also need to be reloaded after every update, because we use guild commands for
+                        modules. Using guild commands doesn't allow commands to be automatically updated by Discord.
                     </p>
                 </div>
 
-                
                 <ButtonContainer />
             </div>
         </>

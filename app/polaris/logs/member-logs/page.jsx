@@ -17,8 +17,8 @@ export default function Page() {
                 </a>
             </div>
             <div className='mainsection'>
-                <h6 className='directory'>Polaris Docs / Logs / Channel Logs</h6>
-                <h1 className='title'>Channel Logs</h1>
+                <h6 className='directory'>Polaris Docs / Logs / Member Logs</h6>
+                <h1 className='title'>Member Logs</h1>
                 <hr className='divider'></hr>
                 <div className='chaptercontainer' id='summary'>
                     <h2 className='chapter'>Overview</h2>
@@ -33,7 +33,6 @@ export default function Page() {
                     <hr className='chapterdivider'></hr>
                 </div>
 
-                
                 <ButtonContainer />
             </div>
         </>

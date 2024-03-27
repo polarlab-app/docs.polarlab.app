@@ -48,22 +48,6 @@ export default function Page() {
                 <div className='chaptercontainer' id='creating'>
                     <h2 className='chapter'>Developing Modules</h2>
                     <hr className='chapterdivider'></hr>
-                    <div className='note warningnote'>
-                        <img className='noteicon' src='https://cdn.polarlab.app/src/docs/img/warning.png'></img>
-                        <p className='notetext'>
-                            All modules that want to be submitted to the official repository must follow a strict set of
-                            standards or else they'll be rejected.
-                            <ul className='list'>
-                                <li>Must use the built in Embed Builder</li>
-                                <li>Must not leak any confidential information</li>
-                                <li>Must be clean code, mustn't be cluttered</li>
-                                <li>Must use built in errorHandler for errors</li>
-                                <li>Must log command using using consoleLogHandler</li>
-                            </ul>
-                            To accomplish most of this it is recommended to use the template.js file as a starting
-                            point.
-                        </p>
-                    </div>
                     <p className='maintext'>
                         To actually create a module create a new folder inside "commands" or "events", with the name of
                         your module. Inside that folder you can create files for all your commands using the templates
@@ -72,8 +56,21 @@ export default function Page() {
                         as the event name.
                     </p>
                 </div>
+                <div className='note warningnote'>
+                    <img className='noteicon' src='https://cdn.polarlab.app/src/docs/img/warning.png'></img>
+                    <p className='notetext'>
+                        All modules that want to be submitted to the official repository must follow a strict set of
+                        standards or else they'll be rejected.
+                        <ul className='list'>
+                            <li>Must use the built in Embed Builder</li>
+                            <li>Must not leak any confidential information</li>
+                            <li>Must be clean code, mustn't be cluttered</li>
+                            <li>Must use built in errorHandler for errors</li>
+                        </ul>
+                        To accomplish most of this it is recommended to use the template.js file as a starting point.
+                    </p>
+                </div>
 
-                
                 <ButtonContainer />
             </div>
         </>
