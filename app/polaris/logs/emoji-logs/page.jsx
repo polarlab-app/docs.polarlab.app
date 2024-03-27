@@ -18,7 +18,7 @@ export default function Page() {
             </div>
             <div className='mainsection'>
                 <h6 className='directory'>Polaris Docs / Logs / Emoji Logs</h6>
-                <h1 className='title'>Channel Logs</h1>
+                <h1 className='title'>Emoji Logs</h1>
                 <hr className='divider'></hr>
                 <div className='chaptercontainer' id='summary'>
                     <h2 className='chapter'>Overview</h2>
@@ -27,6 +27,10 @@ export default function Page() {
                         Emoji logs are more of a misc feature for servers owners, these logs may not be as important to
                         you if you do not specifically run an emoji centered server. These logs log everything from
                         emoji creation, updating and deleting.
+                    </p>
+                    <p className='maintext'>
+                        The default channel where the logs are stored has a topic of{' '}
+                        <span className='codeblock'>pemojilogs</span>. This can be modified in the web dashboard.
                     </p>
                 </div>
                 <div className='chaptercontainer' id='data-logged'>
@@ -53,7 +57,7 @@ export default function Page() {
                 <div className='chaptercontainer' id='supported-events'>
                     <h2 className='chapter'>Supported Events</h2>
                     <hr className='chapterdivider'></hr>
-                    <p className='maintext'>As of Polaris V2.4 🥬 Lettuce, all events are officially supported:</p>
+                    <p className='maintext'>As of Polaris V2.5 🍐 Pear, all events are officially supported:</p>
                     <p className='maintext'>
                         <ol className='mainlist'>
                             <li className='mainlistitem'>
@@ -69,7 +73,6 @@ export default function Page() {
                     </p>
                 </div>
 
-                
                 <ButtonContainer />
             </div>
         </>
