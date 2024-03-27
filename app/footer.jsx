@@ -7,11 +7,17 @@ export default function Footer() {
         <footer className='footercontainer'>
             <div className='footer'>
                 <div className='footertop'>
-                    <img src='https://cdn.polarlab.app/src/img/polarlogo.png' className='footerlogo' alt='alt' />
+                    <Image
+                        height='128'
+                        width='128'
+                        src='https://cdn.polarlab.app/src/img/polarlogo.png'
+                        className='footerlogo'
+                        alt='alt'
+                    />
                     <h1 className='footerheader'>Polar Lab</h1>
-                    <p className='dbtn' href='https://polarlab.app/discord'>
+                    <Link className='dbtn' href='https://polarlab.app/discord'>
                         Discord
-                    </p>
+                    </Link>
                 </div>
                 <div className='lists'>
                     <div className='list'>
@@ -20,12 +26,12 @@ export default function Footer() {
                                 <p className='listheader'>Products</p>
                             </li>
                             <li className='listcontent'>
-                                <Link className='listcontent' href='https://polarlab.app/polaris'>
+                                <Link className='listcontent' href='https://polarlab.app/polaris' prefetch={false}>
                                     Polaris V2
                                 </Link>
                             </li>
                             <li className='listcontent'>
-                                <Link className='listcontent' href='https://polarlab.app/polarmc'>
+                                <Link className='listcontent' href='https://polarlab.app/polarmc' prefetch={false}>
                                     Polar MC
                                 </Link>
                             </li>
@@ -37,22 +43,22 @@ export default function Footer() {
                                 <p className='listheader'>Resources</p>
                             </li>
                             <li className='listcontent'>
-                                <Link className='listcontent' href='https://polarlab.app/blog'>
+                                <Link className='listcontent' href='https://polarlab.app/blog' prefetch={false}>
                                     Blog
                                 </Link>
                             </li>
                             <li className='listcontent'>
-                                <Link className='listcontent' href='/'>
+                                <Link className='listcontent' href='/' prefetch={false}>
                                     Docs
                                 </Link>
                             </li>
                             <li className='listcontent'>
-                                <Link className='listcontent' href='https://polarlab.app/status'>
+                                <Link className='listcontent' href='https://polarlab.app/status' prefetch={false}>
                                     Status
                                 </Link>
                             </li>
                             <li className='listcontent'>
-                                <Link className='listcontent' href='https://polarlab.app/contact'>
+                                <Link className='listcontent' href='https://polarlab.app/contact' prefetch={false}>
                                     Contact
                                 </Link>
                             </li>
@@ -64,12 +70,12 @@ export default function Footer() {
                                 <p className='listheader'>Legal</p>
                             </li>
                             <li className='listcontent'>
-                                <Link className='listcontent' href='https://polarlab.app/privacy'>
+                                <Link className='listcontent' href='https://polarlab.app/privacy' prefetch={false}>
                                     Privacy Policy
                                 </Link>
                             </li>
                             <li className='listcontent'>
-                                <Link className='listcontent' href='https://polarlab.app/terms'>
+                                <Link className='listcontent' href='https://polarlab.app/terms' prefetch={false}>
                                     Terms of Service
                                 </Link>
                             </li>
@@ -82,21 +88,39 @@ export default function Footer() {
                     ©️ 2023 Polar Lab
                 </a>
                 <div className='status'>
-                    <Link className='product' href='https://polarlab.app/status'>
+                    <Link className='product' href='https://polarlab.app/status' prefetch={false}>
                         Polaris Status:
                     </Link>
-                    <img src='https://cdn.polarlab.app/src/icons/status/indigo.png' className='statusicon' alt='alt' />
-                    <Link className='statustext' href='https://polarlab.app/status'>
+                    <Image
+                        src='https://cdn.polarlab.app/src/main/img/discordlogo.png'
+                        className='statusicon'
+                        alt='alt'
+                        width='128'
+                        height='128'
+                    />
+                    <Link className='statustext' href='https://polarlab.app/status' prefetch={false}>
                         Online
                     </Link>
                 </div>
                 <div className='socials'>
-                    <img
-                        src='https://cdn.polarlab.app/src/main/img/discordlogo.png'
-                        className='discordlogo'
-                        alt='alt'
-                    />
-                    <img src='https://cdn.polarlab.app/src/main/img/githublogo.png' className='discordlogo' alt='alt' />
+                    <a href='/discord'>
+                        <Image
+                            src='https://cdn.polarlab.app/src/main/img/discordlogo.png'
+                            className='discordlogo'
+                            alt='alt'
+                            width='140'
+                            height='100'
+                        />
+                    </a>
+                    <a href='https://github.com/polarlab-app'>
+                        <Image
+                            src='https://cdn.polarlab.app/src/main/img/githublogo.png'
+                            className='discordlogo'
+                            alt='alt'
+                            width='128'
+                            height='128'
+                        />
+                    </a>
                 </div>
             </div>
         </footer>
