@@ -39,7 +39,8 @@ export default function SideNav() {
                                     .toLowerCase()
                                     .replace(/ /g, '-')
                                     .replace(/&/g, 'and')
-                                    .replace(/'/g, '')}`}>
+                                    .replace(/'/g, '')}`}
+                                prefetch={false}>
                                 <img src={linkUrl} className='imgsubtext' alt='alt' />
                                 {linkName}
                             </Link>
