@@ -25,52 +25,99 @@ export default function Page() {
 
                     <div className='roadmap'>
                         <div className='roadmaptext'>
+                            <p className='roadmapq strong'>Q3 '23</p>
+                            <p className='roadmapq strong'>Q4 '23</p>
+                            <p className='roadmapq strong'>Q1 '24</p>
+                            <p className='roadmapq strong'>Q2 '24</p>
+                            <p className='roadmapq strong'>Q3 '24</p>
                             <p className='roadmapq strong'>Q4 '24</p>
-                            <p className='roadmapq strong'>Q4 '24</p>
-                            <p className='roadmapq'>Q4 '24</p>
-                            <p className='roadmapq'>Q4 '24</p>
-                            <p className='roadmapq'>Q4 '24</p>
-                            <p className='roadmapq'>Q4 '24</p>
-                            <p className='roadmapq'>Q4 '24</p>
-                            <p className='roadmapq'>Q4 '24</p>
+                            <p className='roadmapq strong'>Q1 '25</p>
+                            <p className='roadmapq strong'>Q2 '25</p>
                         </div>
                         <div className='roadmaptimeline'>
-                            <div className='roadmappoint'>
-                                <div className='roadmappointinside'></div>
+                            <div className='roadmappoint complete'>
+                                <div className='roadmappointinside complete'></div>
                             </div>
                             <hr className='roadmapdivider'></hr>
-                            <div className='roadmappoint'>
-                                <div className='roadmappointinside'></div>
+                            <div className='roadmappoint complete'>
+                                <div className='roadmappointinside complete'></div>
                             </div>
                             <hr className='roadmapdivider'></hr>
-                            <div className='roadmappoint'>
-                                <div className='roadmappointinside'></div>
+                            <div className='roadmappoint complete'>
+                                <div className='roadmappointinside complete'></div>
                             </div>
                             <hr className='roadmapdivider'></hr>
-                            <div className='roadmappoint'>
-                                <div className='roadmappointinside'></div>
+                            <div className='roadmappoint inprogress'>
+                                <div className='roadmappointinside inprogress'></div>
                             </div>
                             <hr className='roadmapdivider'></hr>
-                            <div className='roadmappoint'>
-                                <div className='roadmappointinside'></div>
+                            <div className='roadmappoint waiting'>
+                                <div className='roadmappointinside waiting'></div>
                             </div>
                             <hr className='roadmapdivider'></hr>
-                            <div className='roadmappoint'>
-                                <div className='roadmappointinside'></div>
+                            <div className='roadmappoint waiting'>
+                                <div className='roadmappointinside waiting'></div>
                             </div>
                             <hr className='roadmapdivider'></hr>
-                            <div className='roadmappoint'>
-                                <div className='roadmappointinside'></div>
+                            <div className='roadmappoint waiting'>
+                                <div className='roadmappointinside waiting'></div>
                             </div>
                             <hr className='roadmapdivider'></hr>
-                            <div className='roadmappoint'>
-                                <div className='roadmappointinside'></div>
+                            <div className='roadmappoint waiting'>
+                                <div className='roadmappointinside waiting'></div>
                             </div>
                         </div>
                     </div>
+
+                    <p className='maintext'>
+                        <ul className='mainlist'>
+                            <li>
+                                {' '}
+                                <span className='strong'>Q3 '23</span> - <span className='strong'>V2.0 </span>- Core
+                            </li>
+                            <li>
+                                {' '}
+                                <span className='strong'>Q3 '23</span> -{' '}
+                                <span className='strong'>V2.1 🥑 Avocado </span> - QoL features + Dev Improvements
+                            </li>
+                            <li>
+                                {' '}
+                                <span className='strong'>Q4 '23</span> - <span className='strong'>V2.2 🍯 Honey </span>-
+                                Music Module
+                            </li>
+                            <li>
+                                {' '}
+                                <span className='strong'>Q1 '24</span> - <span className='strong'>V2.3 🥧 Pie </span>-
+                                Information Module
+                            </li>
+                            <li>
+                                {' '}
+                                <span className='strong'>Q2 '24</span> -{' '}
+                                <span className='strong'>V2.4 🥬 Lettuce </span>- Logs Module
+                            </li>
+                            <li>
+                                {' '}
+                                <span className='strong'>Q3 '24</span> - <span className='strong'>V2.5 🍐 Pear</span> -
+                                Economy Module
+                            </li>
+                            <li>
+                                {' '}
+                                <span className='strong'>Q4 '24</span> - <span className='strong'>V2.6 🥭 Mango </span>-
+                                Moderation Module
+                            </li>
+                            <li>
+                                {' '}
+                                <span className='strong'>Q1 '25</span> - <span className='strong'>V2.7 🍑 Peach </span>-
+                                QoL + Dev and bugfixes
+                            </li>
+                            <li>
+                                {' '}
+                                <span className='strong'>Q2 '25</span> - <span className='strong'>V2.8 🧅 Onion </span>-
+                            </li>
+                        </ul>
+                    </p>
                 </div>
 
-                
                 <ButtonContainer />
             </div>
         </>
