@@ -9,8 +9,8 @@ import { headers } from 'next/headers';
 };*/
 
 export async function generateMetadata() {
-    const url = headers().get('referer');
-    const split = url.split('/');
+    const url = await headers().get('referer');
+    const split = url ? url.split('/') : [];
     if (!split[4]) {
         return {
             title: 'Polaris Docs',
