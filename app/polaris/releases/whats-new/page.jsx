@@ -1,42 +1,60 @@
+'use client'
 import ButtonContainer from '@/components/core/buttonContainer';
 import Link from 'next/link';
-import { JSDOM } from 'jsdom';
-export default async function Page() {
-    const response = await fetch('https://api.github.com/repos/polarlab-app/Polaris-V2/releases/latest');
-    const data = await response.json();
+import { useEffect, useState } from 'react';
 
-    const lines = data.body.split('\n');
+export default function Page() {
+    const [data, setData] = useState(null);
+    const [subchapters, setSubchapters] = useState({});
 
-    let currentSubchapter = null;
-    let currentSubSubchapter = null;
-    let subchapters = {};
+    useEffect(() => {
+        async function fetchData() {
+            const response = await fetch('https://api.github.com/repos/polarlab-app/Polaris-V2/releases/latest');
+            const data = await response.json();
 
-    for (const line of lines) {
-        if (line.startsWith('### ') && !line.startsWith('####')) {
-            const formattedLine = line.replace(/### /g, '');
-            currentSubchapter = formattedLine;
-            subchapters[currentSubchapter] = [];
-            currentSubSubchapter = null;
-        } else if (line.startsWith('####')) {
-            const formattedLine = line.replace(/#### /g, '');
-            currentSubSubchapter = formattedLine;
-            subchapters[currentSubchapter].push({
-                title: currentSubSubchapter,
-                items: [],
-            });
-        } else if (line.startsWith('- ')) {
-            const formattedList = line.replace(/- /g, '').replace(/[**]/g, '');
-            if (currentSubSubchapter) {
-                const currentSubSubchapterItem = subchapters[currentSubchapter].find(
-                    (item) => item.title === currentSubSubchapter
-                );
-                if (currentSubSubchapterItem) {
-                    currentSubSubchapterItem.items.push(formattedList);
+            const lines = data.body.split('\n');
+
+            let currentSubchapter = null;
+            let currentSubSubchapter = null;
+            let subchapters = {};
+
+            for (const line of lines) {
+                if (line.startsWith('### ') && !line.startsWith('####')) {
+                    const formattedLine = line.replace(/### /g, '');
+                    currentSubchapter = formattedLine;
+                    subchapters[currentSubchapter] = [];
+                    currentSubSubchapter = null;
+                } else if (line.startsWith('####')) {
+                    const formattedLine = line.replace(/#### /g, '');
+                    currentSubSubchapter = formattedLine;
+                    subchapters[currentSubchapter].push({
+                        title: currentSubSubchapter,
+                        items: [],
+                    });
+                } else if (line.startsWith('- ')) {
+                    const formattedList = line.replace(/- /g, '').replace(/[**]/g, '');
+                    if (currentSubSubchapter) {
+                        const currentSubSubchapterItem = subchapters[currentSubchapter].find(
+                            (item) => item.title === currentSubSubchapter
+                        );
+                        if (currentSubSubchapterItem) {
+                            currentSubSubchapterItem.items.push(formattedList);
+                        }
+                    } else {
+                        subchapters[currentSubchapter].push(formattedList);
+                    }
                 }
-            } else {
-                subchapters[currentSubchapter].push(formattedList);
             }
+
+            setData(data);
+            setSubchapters(subchapters);
         }
+
+        fetchData();
+    }, []);
+
+    if (!data) {
+        return <div>Loading...</div>;
     }
 
     return (
