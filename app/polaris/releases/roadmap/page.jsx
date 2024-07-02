@@ -47,12 +47,12 @@ export default function Page() {
                                 <div className='roadmappointinside complete'></div>
                             </div>
                             <hr className='roadmapdivider'></hr>
-                            <div className='roadmappoint inprogress'>
-                                <div className='roadmappointinside inprogress'></div>
+                            <div className='roadmappoint complete'>
+                                <div className='roadmappointinside complete'></div>
                             </div>
                             <hr className='roadmapdivider'></hr>
-                            <div className='roadmappoint waiting'>
-                                <div className='roadmappointinside waiting'></div>
+                            <div className='roadmappoint inprogress'>
+                                <div className='roadmappointinside inprogress'></div>
                             </div>
                             <hr className='roadmapdivider'></hr>
                             <div className='roadmappoint waiting'>
